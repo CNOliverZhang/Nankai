@@ -1,6 +1,6 @@
-<image class='background' src='../../images/background.jpg'></image>
+<image class='background' src='http://image.potatofield.cn/18-10-24/93314475.jpg'></image>
 <view class='container'>
-  <image class='wish' src='../../images/posterCreator/wish.png'></image>
+  <image class='wish' src='http://image.potatofield.cn/18-10-24/70717601.jpg'></image>
 </view>
 <view class='container'>
   <input placeholder='用一句话表达你对母校的热爱吧' maxlength='15' class='input-wish' bindinput='bindKeyInput'></input>

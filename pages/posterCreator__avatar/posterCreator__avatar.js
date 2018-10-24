@@ -4,7 +4,7 @@ Page({
 
   data: {
     wish: "允公允能，日新月异",
-    avatar: "../../images/posterCreator/defaultAvatar.png",
+    avatar: "https://image.potatofield.cn/18-10-21/43988906.jpg",
     nickname: "南开人",
   },
 

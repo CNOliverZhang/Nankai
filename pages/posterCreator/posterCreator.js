@@ -4,8 +4,32 @@ Page({
 
   data: {
     wish: "允公允能，日新月异",
-    avatar: "../../images/posterCreator/defaultAvatar.png",
+    avatar: "https://image.potatofield.cn/18-10-21/43988906.jpg",
     nickname: "南开人",
+    share: "https://image.potatofield.cn/18-10-24/70437359.jpg",
+  },
+
+  //下载默认头像及分享图片至临时目录
+  onLoad: function () {
+    var that = this;
+    wx.downloadFile({
+      url: that.data.avatar,
+      success: function (res) {
+        var tempFilePath = res.tempFilePath;
+        that.setData({
+          avatar: tempFilePath
+        })
+      }
+    })
+    wx.downloadFile({
+      url: that.data.share,
+      success: function (res) {
+        var tempFilePath = res.tempFilePath;
+        that.setData({
+          share: tempFilePath
+        })
+      }
+    })
   },
 
   //返回主界面按钮
@@ -32,7 +56,7 @@ Page({
   onShareAppMessage: function (res) {
     return {
       title: "生成你的九九南开专属海报",
-      imageUrl: '../../images/posterCreator/share.jpg',
+      imageUrl: this.data.share,
       success: function (res) {
         wx.showToast({
           title: "分享成功",

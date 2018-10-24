@@ -3,8 +3,42 @@ const app = getApp();
 Page({
 
   data: {
-    avatar: "../../images/avatarCreator/defaultAvatar.png",
+    avatar: "https://image.potatofield.cn/18-10-21/43988906.jpg",
+    background: "https://image.potatofield.cn/18-10-21/91534259.jpg",
+    share: "https://image.potatofield.cn/18-10-21/60370926.jpg",
     showAvatarHolder: false,
+  },
+
+  //下载默认头像，背景图及分享图至临时目录
+  onLoad: function() {
+    var that = this;
+    wx.downloadFile({
+      url: that.data.avatar,
+      success: function(res) {
+        var tempFilePath = res.tempFilePath;
+        that.setData({
+          avatar: tempFilePath
+        })
+      }
+    })
+    wx.downloadFile({
+      url: that.data.background,
+      success: function (res) {
+        var tempFilePath = res.tempFilePath;
+        that.setData({
+          background: tempFilePath
+        })
+      }
+    })
+    wx.downloadFile({
+      url: that.data.share,
+      success: function (res) {
+        var tempFilePath = res.tempFilePath;
+        that.setData({
+          share: tempFilePath
+        })
+      }
+    })
   },
 
   //采用canvas方法绘图
@@ -12,7 +46,7 @@ Page({
     var that = this;
     var context = wx.createCanvasContext('avatarCanvas');
     //背景图：校徽
-    var background = "../../images/avatarCreator/ring.png";
+    var background = that.data.background;
     context.drawImage(background, 0, 0, 600, 600);
     //获取尺寸用于计算裁剪方案
     wx.getImageInfo({
@@ -218,7 +252,7 @@ Page({
   onShareAppMessage: function (res) {
     return {
       title: "快来生成你的南开头像",
-      imageUrl: '../../images/avatarCreator/share.jpg',
+      imageUrl: this.data.share,
       success: function (res) {
         wx.showToast({
           title: "分享成功",

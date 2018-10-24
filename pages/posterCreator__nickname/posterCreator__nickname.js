@@ -4,17 +4,27 @@ Page({
 
   data: {
     wish: "允公允能，日新月异",
-    avatar: "../../images/posterCreator/defaultAvatar.png",
+    avatar: "https://image.potatofield.cn/18-10-21/43988906.jpg",
     nickname: "南开人",
-    imagePath: "../../images/posterCreator/defaultPoster.jpg",
+    imagePath: "https://image.potatofield.cn/18-10-24/38697647.jpg",
   },
 
   //接收数据
   onLoad: function (options) {
-    this.setData({
+    var that = this;
+    that.setData({
       wish: options.wish,
       avatar: options.avatar,
       nickname: options.nickname,
+    })
+    wx.downloadFile({
+      url: that.data.imagePath,
+      success: function (res) {
+        var tempFilePath = res.tempFilePath;
+        that.setData({
+          imagePath: tempFilePath
+        })
+      }
     })
   },
 
@@ -37,7 +47,7 @@ Page({
     var that = this;
     var context = wx.createCanvasContext('poster');
     //绘制背景
-    var background = "../../images/posterCreator/background.jpg";
+    var background = this.data.imagePath;
     context.drawImage(background, 0, 0, 1080, 1920);
     //绘制昵称
     var name = that.data.nickname;

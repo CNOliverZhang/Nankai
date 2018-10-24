@@ -1,6 +1,6 @@
-<image class='background' src='../../images/background.jpg'></image>
+<image class='background' src='http://image.potatofield.cn/18-10-24/93314475.jpg'></image>
 <view class='container'>
-  <image class='signature' src='../../images/posterCreator/signature.png'></image>
+  <image class='signature' src='http://image.potatofield.cn/18-10-24/26346145.jpg'></image>
 </view>
 <view class='container instruction'>
   <text>别忘了在海报上留下自己的大名哦~</text>

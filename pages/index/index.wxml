@@ -1,6 +1,23 @@
-<image class='background' src='../../images/background.jpg'></image>
+<image class='background' src='http://image.potatofield.cn/18-10-24/93314475.jpg'></image>
 <view class='container'>
-  <image class='logo' src='../../images/logo.png'></image>
+  <image class='logo' src='http://image.potatofield.cn/18-10-24/7129900.jpg'></image>
+</view>
+<view class='container'>
+  <view class='title'>
+    <text>南开大学团委服务平台</text>
+  </view>
+  <view class='content center'>
+    <text>Copyright © 2018</text>
+  </view>
+  <view class='content center'>
+    <text>南开大学团委网络新媒体运营中心</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button'>
+    <image class='button-image' src='https://image.potatofield.cn/18-10-24/38697647.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
 </view>
 <view class='container'>
   <button class='bar-button' hover-class='bar-button__hover' bindtap='gotoAvatarCreator'>南开头像生成器</button>

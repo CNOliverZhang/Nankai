@@ -3,28 +3,41 @@ const app = getApp()
 Page({
 
   data: {
+    imageUrl: 'https://image.potatofield.cn/18-10-24/3328292.jpg',
+  },
 
+  onLoad: function() {
+    var that = this
+    wx.downloadFile({
+      url: this.data.imageUrl,
+      success: function(res) {
+        var tempFilePath = res.tempFilePath;
+        that.setData({
+          imageUrl: tempFilePath
+        })
+      }
+    })
   },
 
   //头像生成器
-  gotoAvatarCreator: function () {
+  gotoAvatarCreator: function() {
     wx.navigateTo({
       url: '../avatarCreator/avatarCreator',
     })
   },
 
   //海报生成器
-  gotoPosterCreator: function () {
+  gotoPosterCreator: function() {
     wx.navigateTo({
       url: '../posterCreator/posterCreator',
     })
   },
 
   //用户点击右上角分享
-  onShareAppMessage: function (res) {
+  onShareAppMessage: function(res) {
     return {
       title: "南开大学团委服务平台",
-      imageUrl: '../../images/share.jpg',
+      imageUrl: this.data.imageUrl,
       success: function (res) {
         wx.showToast({
           title: "分享成功",
