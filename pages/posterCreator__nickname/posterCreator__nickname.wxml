@@ -1,0 +1,25 @@
+<image class='background' src='../../images/background.jpg'></image>
+<view class='container'>
+  <image class='signature' src='../../images/posterCreator/signature.png'></image>
+</view>
+<view class='container instruction'>
+  <text>别忘了在海报上留下自己的大名哦~</text>
+</view>
+<view class='container'>
+  <view class='input-holder'>
+    <input class='input-nickname' placeholder='请输入姓名或昵称' maxlength='8' bindinput='bindKeyInput'></input>
+  </view>
+  <view class='confirm-holder'>
+    <button class='bar-button small' hover-class='bar-button__hover' bindtap='bindConfirm'>确定</button>
+  </view>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' open-type='getUserInfo' bindgetuserinfo='bindGetNickname'>获取微信昵称</button>
+</view>
+<view class='container'>
+  <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回重选头像</button>
+</view>
+<view class='canvas-box'>
+    <canvas class='poster-canvas' canvas-id='poster'></canvas>
+</view> 
+

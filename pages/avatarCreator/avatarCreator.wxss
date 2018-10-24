@@ -1,0 +1,41 @@
+/* 生成后的遮罩页面 */
+.image-holder {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.534);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+/* 生成后的头像 */
+.avatar {
+  display: block;
+  width: 60vw;
+  height: 60vw;
+  border-radius: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+  z-index: 10;
+}
+
+/* 头像画布放置在可视区域外 */
+.avatar-canvas {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top: 9999px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  height: 40vw;
+}

@@ -1,0 +1,16 @@
+.input-wish {
+  text-align: center;
+  height: 80rpx;
+  border-radius: 40rpx;
+  color: #000000;
+  background: #ffffff;
+  font-size: 32rpx;
+}
+
+.wish {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  height: 40vw;
+}

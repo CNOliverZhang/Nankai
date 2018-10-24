@@ -1,0 +1,16 @@
+<image class='background' src='../../images/background.jpg'></image>
+<view class='container'>
+  <image class='logo' src='../../images/posterCreator/avatar.png'></image>
+</view>
+<view class='container instruction'>
+  <text>你需要选择一张图片作为海报上的头像哦~</text>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='fromAlbum'>选择图片上传</button>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>使用微信头像</button>
+</view>
+<view class='container'>
+  <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回重新填写感言</button>
+</view>

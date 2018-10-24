@@ -1,0 +1,89 @@
+/**app.wxss**/
+
+@import "weui/weui.wxss";
+
+.background {
+  width: 100vw;
+  height: 300vw;
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  position: relative;
+  overflow: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.left {
+  float: left;
+  width: 45%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+.bar-button {
+  height: 80rpx;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+  background-color: #7a0c6e;
+  color: #ffffff;
+  font-size: 32rpx;
+}
+
+.return-button {
+  background-color: #cccccc;
+}
+
+.bar-button__hover {
+  background-color: #c013ad;
+}
+
+.return-button__hover {
+  background-color: #999999;
+}
+
+.instruction {
+  text-align: center;
+  font-size: 24rpx;
+  color: #999999;
+}
+
+.title {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48rpx;
+  color: #7a0c6e;
+}
+
+.subtitle {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #7a0c6e;
+}
+
+.content {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+  color: #999999;
+}
+
+.center {
+  text-align: center;
+}
+
+.indent {
+  text-indent: 2em;
+}
