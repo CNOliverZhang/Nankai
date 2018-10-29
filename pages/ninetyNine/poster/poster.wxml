@@ -1,0 +1,9 @@
+<view class='container'>
+  <image class='poster' src='{{imagePath}}'></image>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
+</view>
+<view class='container'>
+  <button class='bar-button return-button' hover-class='return-button__hover' bindtap='exit'>返回时光机</button>
+</view>

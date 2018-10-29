@@ -1,0 +1,62 @@
+<view class='container'>
+  <view class='header'>
+    <image class='bell' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+    <view class='help'>
+      <view class='content'>
+        <text>当下方的九宫格中出现校钟图案时一定要及时点击哦~</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='container'>
+  <view class='subtitle'>
+    <text>你还剩余{{chances}}次失误机会</text>
+  </view>
+</view>
+<view class='container'>
+  <view class='three-columns'>
+    <button class='block' id='LowSo' bindtap='click'>
+      <image class='{{LowSo}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+    <button class='block' id='LowSi' bindtap='click'>
+      <image class='{{LowSi}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+    <button class='block' id='Do' bindtap='click'>
+      <image class='{{Do}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+  </view>
+</view>
+<view class='container'>
+  <view class='three-columns'>
+    <button class='block' id='Re' bindtap='click'>
+      <image class='{{Re}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+    <view class='block no-background'>
+      <image class='active' src='http://image.potatofield.cn/18-10-24/7129900.jpg'></image>
+    </view>
+    <button class='block' id='Mi' bindtap='click'>
+      <image class='{{Mi}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+  </view>
+</view>
+<view class='container'>
+  <view class='three-columns'>
+    <button class='block' id='Fa' bindtap='click'>
+      <image class='{{Fa}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+    <button class='block' id='So' bindtap='click'>
+      <image class='{{So}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+    <button class='block' id='La' bindtap='click'>
+      <image class='{{La}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
+      <view class='button-mask' hover-class='button-mask__hover'></view>
+    </button>
+  </view>
+</view>

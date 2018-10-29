@@ -1,0 +1,23 @@
+<view class='container'>
+  <image class='logo' src='http://image.potatofield.cn/18-10-30/79134136.jpg'></image>
+</view>
+<view class='container'>
+  <view class='title'>
+   <text>弹奏失败了</text> 
+  </view>
+  <view class='content indent'>
+    <text>太遗憾了，这次没有弹奏成功呢……不过没关系啦，南开还是爱你的呀~</text>
+  </view>
+  <view class='content indent'>
+    <text>如果你愿意的话，可以点击下方的按钮再次挑战，相信你会成功的；也欢迎你把本页面分享给朋友，让他们一起来弹奏哦~</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='retry'>再来一次</button>
+</view>
+<view class='container'>
+  <view class='two-columns'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>退出</button>
+    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
+  </view>
+</view>

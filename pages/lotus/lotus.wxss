@@ -1,3 +1,9 @@
+page {
+  background-image: url("http://image.potatofield.cn/18-10-27/5592947.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
 /* 生成后的遮罩页面 */
 .image-holder {
   width: 100%;
@@ -12,11 +18,10 @@
 }
 
 /* 生成后的头像 */
-.avatar {
+.lotus {
   display: block;
-  width: 60vw;
-  height: 60vw;
-  border-radius: 30vw;
+  width: 27vh;
+  height: 48vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100rpx;
@@ -25,9 +30,9 @@
 }
 
 /* 头像画布放置在可视区域外 */
-.avatar-canvas {
-  width: 600px;
-  height: 600px;
+.lotus-canvas {
+  width: 1080px;
+  height: 1920px;
   position: fixed;
   top: 9999px;
 }

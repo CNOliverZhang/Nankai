@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bell {
+  display: block;
+  height: 25vw;
+  width: 25vw;
+}
+
+.help {
+  width: 40vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.block {
+  height: 20vw;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.no-background {
+  background-color: #ffffff00;
+}
+
+.inactive {
+  height: 0;
+  width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  transition:100ms;
+}
+
+.active {
+  height: 18vw;
+  width: 18vw;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  transition: 100ms;
+}

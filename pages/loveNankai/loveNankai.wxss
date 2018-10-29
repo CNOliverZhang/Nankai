@@ -1,0 +1,4 @@
+.logo {
+  width: 60vw;
+  height: 40vw;
+}

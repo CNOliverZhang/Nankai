@@ -1,0 +1,49 @@
+<view class='container'>
+  <image class='logo' src='http://image.potatofield.cn/18-10-30/14649833.jpg'></image>
+</view>
+<view class='container'>
+  <view class='title'>
+    <text>规则</text>
+  </view>
+  <view class='content indent'>
+    <text>九宫格中会随着校歌的节奏和旋律在对应音符的位置出现校钟的图案，你需要在图案出现时点击。及时点击后将发出对应的音节，错过一次点击记为一次失误。根据难度不同，你可以失误的次数和音符出现的速度也不同。</text>
+  </view>
+</view>
+<view class='container'>
+  <view class='title'>
+    <text>请选择难度</text>
+  </view>
+</view>
+<view class='container'>
+  <view class='subtitle'>
+    <text>困难</text>
+  </view>
+  <view class='content center'>
+    <text>不允许失误，节奏较快</text>
+  </view>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='hard'>开始</button>
+</view>
+<view class='container'>
+  <view class='subtitle'>
+    <text>正常</text>
+  </view>
+  <view class='content center'>
+    <text>允许三次失误，节奏较快</text>
+  </view>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='normal'>开始</button>
+</view>
+<view class='container'>
+  <view class='subtitle'>
+    <text>简单</text>
+  </view>
+  <view class='content center'>
+    <text>允许三次失误，节奏较慢</text>
+  </view>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='easy'>开始</button>
+</view>
+<view class='container'>
+  <view class='two-columns'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回主界面</button>
+    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
+  </view>
+</view>

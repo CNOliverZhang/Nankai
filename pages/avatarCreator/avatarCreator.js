@@ -145,6 +145,12 @@ Page({
     var that = this;
     //成功获取授权
     if (e.detail.userInfo) {
+      wx.showToast({
+        title: '授权成功',
+        icon: 'success',
+        mask: true,
+        duration: 5000
+      })
       that.setData({
         name: e.detail.userInfo.nickName,
         avatar: e.detail.userInfo.avatarUrl

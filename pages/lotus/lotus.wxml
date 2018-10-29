@@ -1,0 +1,37 @@
+<view class='container'>
+  <view class='title'>
+    <text>南开大学荷花节</text>
+  </view>
+  <view class='subtitle'>
+   <text>我的邀请函</text>
+  </view>
+</view>
+<view class='container'>
+  <view class='inputBox'>
+    <input placeholder='输入荷花节想说的话' maxlength='10' bindinput='bindKeyInput'></input>
+  </view>
+</view>
+<view class='container'>
+  <view class='content indent'>
+    <text>生成专属邀请函需要您授权我们获取您的的头像和昵称。您也可以拒绝授权，此时我们将使用默认头像和昵称生成海报。</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>生成邀请函</button>
+</view>
+<view class='container'>
+  <view class='two-columns'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回时光机</button>
+    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给好友</button>
+  </view>
+</view>
+<view class='image-holder' hidden='{{showLotusHolder == false}}'>
+  <image src='{{imagePath}}' class='lotus'></image>
+  <view class='container'>
+    <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
+  </view>
+  <view class='container'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='cancel'>取消保存</button>
+  </view>
+</view> 
+<canvas class='lotus-canvas' canvas-id='lotus'></canvas>

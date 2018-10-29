@@ -1,0 +1,6 @@
+.poster-canvas {
+  width: 1620px;
+  height: 1080px;
+  position: fixed;
+  top: 9999px;
+}

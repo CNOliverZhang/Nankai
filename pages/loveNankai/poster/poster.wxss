@@ -1,0 +1,7 @@
+.poster {
+  width: 75vw;
+  height: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

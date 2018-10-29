@@ -1,4 +1,3 @@
-<image class='background' src='http://image.potatofield.cn/18-10-24/93314475.jpg'></image>
 <view class='container'>
   <image class='logo' src='http://image.potatofield.cn/18-10-24/7129900.jpg'></image>
 </view>
@@ -14,22 +13,26 @@
   </view>
 </view>
 <view class='container'>
-  <button class='block-button'>
-    <image class='button-image' src='https://image.potatofield.cn/18-10-24/38697647.jpg'></image>
+  <button class='block-button' bindtap='gotoLoveNankai'>
+    <image class='button-image' src='http://image.potatofield.cn/18-10-30/56121876.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>
 <view class='container'>
-  <button class='bar-button' hover-class='bar-button__hover' bindtap='gotoAvatarCreator'>南开头像生成器</button>
+  <button class='block-button' bindtap='gotoAvatarCreator'>
+    <image class='button-image' src='http://image.potatofield.cn/18-10-27/9492853.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
 </view>
 <view class='container'>
-  <button class='bar-button' hover-class='bar-button__hover' bindtap='gotoPosterCreator'>九九南开，等一个你</button>
+  <button class='block-button' bindtap='gotoTimeMachine'>
+    <image class='button-image' src='http://image.potatofield.cn/18-10-27/37330841.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
 </view>
 <view class='container'>
-  <view class='left'>
+  <view class='two-columns'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
-  </view>
-  <view class='right'>
     <button class='bar-button' hover-class='bar-button__hover' bindtap='actionSheet'>更多操作</button>
   </view>
 </view>

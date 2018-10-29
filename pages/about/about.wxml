@@ -1,4 +1,3 @@
-<image class='background' src='http://image.potatofield.cn/18-10-24/93314475.jpg'></image>
 <view class='container'>
   <image class='logo' src='http://image.potatofield.cn/18-10-24/7129900.jpg'></image>
 </view>
@@ -22,10 +21,19 @@
     <text>当前版本</text>
   </view>
   <view class='content center'>
-    <text>2018年10月16日 v1.0.181016 正式版</text>
+    <text>2018年10月28日 v1.0.181030 Beta版</text>
   </view>
   <view class='subtitle'>
     <text>版本历史</text>
+  </view>
+  <view class='content center'>
+    <text>2018年10月28日 v1.0.181029 Beta版</text>
+  </view>
+  <view class='content center'>
+    <text>2018年10月27日 v1.0.181027 Beta版</text>
+  </view>
+  <view class='content center'>
+    <text>2018年10月16日 v1.0.181016 正式版</text>
   </view>
   <view class='content center'>
     <text>2018年10月15日 v1.0.181015 正式版</text>
@@ -40,7 +48,7 @@
     <text>功能逻辑代码</text>
   </view>
   <view class='content center'>
-    <text>陈鸿泽</text>
+    <text>张志毅 陈鸿泽</text>
   </view>
   <view class='subtitle'>
     <text>前端样式代码</text>
@@ -52,9 +60,9 @@
     <text>美工设计</text>
   </view>
   <view class='content center'>
-    <text>王烁皓 王梓炫</text>
+    <text>王烁皓 王梓炫 张志毅</text>
   </view>
 </view>
-<view class='container bottom-padding'>
+<view class='container'>
   <button class='bar-button' hover-class='bar-button__hover' bindtap='return'>返回</button>
 </view>

@@ -19,6 +19,13 @@ Page({
     })
   },
 
+  //我与南开谈恋爱
+  gotoLoveNankai: function () {
+    wx.navigateTo({
+      url: '../loveNankai/loveNankai',
+    })
+  },
+
   //头像生成器
   gotoAvatarCreator: function() {
     wx.navigateTo({
@@ -26,10 +33,10 @@ Page({
     })
   },
 
-  //海报生成器
-  gotoPosterCreator: function() {
+  //时光机
+  gotoTimeMachine: function() {
     wx.navigateTo({
-      url: '../posterCreator/posterCreator',
+      url: '../timeMachine/timeMachine',
     })
   },
 

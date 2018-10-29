@@ -1,0 +1,45 @@
+<view class='container'>
+  <image class='logo' src='http://image.potatofield.cn/18-10-27/57751256.jpg'></image>
+</view>
+<view class='container'>
+  <view class='title'>
+    <text>关于时光机</text>
+  </view>
+  <view class='content indent'>
+    <text>你好，欢迎来到时光机！</text>
+  </view>
+  <view class='content indent'>
+    <text>在这里，你可以重温本平台在过去每一个重要的日子推出的彩蛋。不管你是因为忙碌而错过了当初的精彩，还是对彼时的情境难以忘怀，你都可以在这里登上时间的舞台，无论现在还是将来。时光机，让你的回忆不留缺憾。</text>
+  </view>
+</view>
+<view class='container'>
+  <view class='subtitle'>
+    <text>九九南开，等一个你</text>
+  </view>
+  <view class='content indent'>
+    <text>这是2018年10月16日推出的，为纪念南开大学九十九周年校庆推出的小程序。你可以在这里生成你的99校庆专属纪念海报。</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoNinetyNine'>
+    <image class='button-image' src='http://image.potatofield.cn/18-10-27/95144105.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <view class='subtitle'>
+    <text>荷花节邀请函</text>
+  </view>
+  <view class='content indent'>
+    <text>这是2018年6月19日推出的，为南开大学六届荷花节预热的小程序。你可以在这里生成你的第六届荷花节专属纪念海报。</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoLotus'>
+    <image class='button-image' src='http://image.potatofield.cn/18-10-28/73068552.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='prev'>返回主界面</button>
+</view>

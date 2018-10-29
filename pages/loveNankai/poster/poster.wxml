@@ -1,0 +1,20 @@
+<view class='container'>
+  <image class='poster' src='{{imagePath}}'></image>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
+</view>
+<view class='container'>
+  <view class='content indent'>
+    <text>如果你愿意的话，可以点击下方的按钮再试一次；也欢迎你把本页面分享给朋友，让他们一起来弹奏哦~</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='retry'>再来一次</button>
+</view>
+<view class='container'>
+  <view class='two-columns'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>退出</button>
+    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
+  </view>
+</view>

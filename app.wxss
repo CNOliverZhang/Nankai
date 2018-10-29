@@ -1,6 +1,13 @@
 /**app.wxss**/
 
-@import "weui/weui.wxss";
+page {
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  background-image: url(http://image.potatofield.cn/18-10-29/18567134.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+}
 
 button {
   border-radius: 0;
@@ -13,31 +20,44 @@ button::after {
   border: none;
 }
 
-.background {
-  width: 100vw;
-  height: 300vw;
-  position: fixed;
-  bottom: 0;
+input {
+  text-align: center;
+  height: 80rpx;
+  border-radius: 40rpx;
+  color: #000000;
+  background: #ffffff;
+  font-size: 32rpx;
 }
 
 .container {
-  position: relative;
-  overflow: auto;
-  width: 80vw;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50rpx;
   margin-bottom: 50rpx;
 }
 
-.left {
-  float: left;
-  width: 45%;
+.two-columns {
+  column-count: 2;
+  column-gap: 5vw;
 }
 
-.right {
-  float: right;
-  width: 45%;
+.three-columns {
+  column-count: 3;
+  column-gap: 5vw;
+}
+
+.four-columns {
+  column-count: 4;
+  column-gap: 5vw;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  height: 40vw;
 }
 
 .bar-button {
@@ -50,7 +70,7 @@ button::after {
 }
 
 .return-button {
-  background-color: #cccccc;
+  background-color: #aaaaaa;
 }
 
 .bar-button__hover {
@@ -58,18 +78,18 @@ button::after {
 }
 
 .return-button__hover {
-  background-color: #999999;
+  background-color: #919191;
 }
 
 .instruction {
   text-align: center;
   font-size: 24rpx;
-  color: #999999;
+  color: #787878;
 }
 
 .title {
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
   text-align: center;
   font-weight: bold;
   font-size: 48rpx;
@@ -77,18 +97,20 @@ button::after {
 }
 
 .subtitle {
-  margin-top: 10rpx;
-  margin-bottom: 10rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
   text-align: center;
   font-size: 40rpx;
   color: #7a0c6e;
 }
 
 .content {
-  margin-top: 10rpx;
-  margin-bottom: 10rpx;
+  text-align: justify;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  line-height: 50rpx;
   font-size: 32rpx;
-  color: #999999;
+  color: #787878;
 }
 
 .center {
@@ -102,7 +124,6 @@ button::after {
 .block-button {
   height: 45vw;
   border-radius: 40rpx;
-  background: #999999;
 }
 
 .button-mask {
