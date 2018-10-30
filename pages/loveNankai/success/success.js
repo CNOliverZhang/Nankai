@@ -43,7 +43,7 @@ Page({
     context.fillText(name, 430, 170);
     context.stroke();
     //绘制等级
-    var level = that.data.wish;
+    var level = that.data.level;
     if (level == 'easy') {
       level = '简单'
     } else if (level == 'normal') {

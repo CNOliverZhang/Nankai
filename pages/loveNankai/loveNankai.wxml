@@ -6,7 +6,7 @@
     <text>规则</text>
   </view>
   <view class='content indent'>
-    <text>九宫格中会随着校歌的节奏和旋律在对应音符的位置出现校钟的图案，你需要在图案出现时点击。及时点击后将发出对应的音节，错过一次点击记为一次失误。根据难度不同，你可以失误的次数和音符出现的速度也不同。</text>
+    <text>九宫格中会随着校歌的节奏和旋律在对应音符的位置出现校钟的图案，你需要在图案出现时点击。及时点击后将发出对应的音节，错过一次点击记为一次失误。根据难度不同，音符出现的速度不同。</text>
   </view>
 </view>
 <view class='container'>
@@ -19,7 +19,7 @@
     <text>困难</text>
   </view>
   <view class='content center'>
-    <text>不允许失误，节奏较快</text>
+    <text>允许三次失误，节奏较快</text>
   </view>
   <button class='bar-button' hover-class='bar-button__hover' bindtap='hard'>开始</button>
 </view>
@@ -28,7 +28,7 @@
     <text>正常</text>
   </view>
   <view class='content center'>
-    <text>允许三次失误，节奏较快</text>
+    <text>允许三次失误，节奏正常</text>
   </view>
   <button class='bar-button' hover-class='bar-button__hover' bindtap='normal'>开始</button>
 </view>

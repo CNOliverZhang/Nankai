@@ -29,19 +29,19 @@ Page({
 
   hard: function () {
     wx.redirectTo({
-      url: 'play/play?chances=0&speed=200&level=hard',
+      url: 'play/play?chances=3&speed=150&level=hard',
     })
   },
 
   normal: function () {
     wx.redirectTo({
-      url: 'play/play?chances=3&speed=200&level=normal',
+      url: 'play/play?chances=3&speed=250&level=normal',
     })
   },
 
   easy: function () {
     wx.redirectTo({
-      url: 'play/play?chances=3&speed=400&level=easy',
+      url: 'play/play?chances=3&speed=500&level=easy',
     })
   },
 
