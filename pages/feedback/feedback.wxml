@@ -15,3 +15,11 @@
     <button class='bar-button' hover-class='bar-button__hover' open-type='feedback'>继续</button>
   </view>
 </view>
+<view class='container'>
+  <view class='copyright'>
+    <text>Copyright © 2018</text>
+  </view>
+  <view class='copyright'>
+    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+  </view>
+</view>

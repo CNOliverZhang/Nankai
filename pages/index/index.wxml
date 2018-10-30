@@ -2,14 +2,12 @@
   <image class='logo' src='http://image.potatofield.cn/18-10-24/7129900.jpg'></image>
 </view>
 <view class='container'>
-  <view class='title'>
-    <text>南开大学团委服务平台</text>
-  </view>
+  <view class='title'>南开大学团委服务平台</view>
   <view class='content center'>
     <text>Copyright © 2018</text>
   </view>
   <view class='content center'>
-    <text>南开大学团委网络新媒体运营中心</text>
+    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
 <view class='container'>

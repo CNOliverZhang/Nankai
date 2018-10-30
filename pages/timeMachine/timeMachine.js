@@ -3,19 +3,19 @@ Page({
 
   gotoNinetyNine: function () {
     wx.navigateTo({
-      url: '../ninetyNine/ninetyNine',
+      url: './ninetyNine/ninetyNine',
     })
   },
 
   gotoLotus: function () {
     wx.navigateTo({
-      url: '../lotus/lotus',
+      url: './lotus/lotus',
     })
   },
 
   prev: function () {
     wx.redirectTo({
-      url: '../index/index',
+      url: '/pages/index/index',
     })
   },
 })

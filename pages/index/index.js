@@ -22,21 +22,21 @@ Page({
   //我与南开谈恋爱
   gotoLoveNankai: function () {
     wx.navigateTo({
-      url: '../loveNankai/loveNankai',
+      url: '/pages/loveNankai/loveNankai',
     })
   },
 
   //头像生成器
   gotoAvatarCreator: function() {
     wx.navigateTo({
-      url: '../avatarCreator/avatarCreator',
+      url: '/pages/avatarCreator/avatarCreator',
     })
   },
 
   //时光机
   gotoTimeMachine: function() {
     wx.navigateTo({
-      url: '../timeMachine/timeMachine',
+      url: '/pages/timeMachine/timeMachine',
     })
   },
 
@@ -69,11 +69,11 @@ Page({
       success(res) {
         if (res.tapIndex === 0) {
           wx.navigateTo({
-            url: '../about/about',
+            url: '/pages/about/about',
           })
         } else if (res.tapIndex === 1) {
           wx.navigateTo({
-            url: '../feedback/feedback'
+            url: '/pages/feedback/feedback'
           })
         }
       }

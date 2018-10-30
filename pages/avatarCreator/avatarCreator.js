@@ -202,7 +202,7 @@ Page({
   //返回首页
   gotoIndex: function () {
     wx.redirectTo({
-      url: '../index/index',
+      url: '/pages/index/index',
     })
   },
 

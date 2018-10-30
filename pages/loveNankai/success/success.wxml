@@ -18,4 +18,12 @@
 <view class='container'>
   <button class='bar-button small' hover-class='bar-button__hover' bindtap='bindConfirm'>确定</button>
 </view>
+<view class='container'>
+  <view class='copyright'>
+    <text>Copyright © 2018</text>
+  </view>
+  <view class='copyright'>
+    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+  </view>
+</view>
 <canvas class='poster-canvas' canvas-id='poster'></canvas>

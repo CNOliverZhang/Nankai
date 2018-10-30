@@ -33,5 +33,13 @@
   <view class='container'>
     <button class='bar-button return-button' hover-class='return-button__hover' bindtap='cancel'>取消保存</button>
   </view>
-</view> 
+</view>
+<view class='container'>
+  <view class='copyright'>
+    <text>Copyright © 2018</text>
+  </view>
+  <view class='copyright'>
+    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+  </view>
+</view>
 <canvas class='lotus-canvas' canvas-id='lotus'></canvas>
