@@ -11,11 +11,15 @@
     "pages/feedback/feedback",
     "pages/timeMachine/timeMachine",
     "pages/timeMachine/lotus/lotus",
-    "pages/loveNankai/loveNankai",
-    "pages/loveNankai/play/play",
-    "pages/loveNankai/poster/poster",
-    "pages/loveNankai/fail/fail",
-    "pages/loveNankai/success/success"
+    "pages/timeMachine/loveNankai/loveNankai",
+    "pages/timeMachine/loveNankai/play/play",
+    "pages/timeMachine/loveNankai/poster/poster",
+    "pages/timeMachine/loveNankai/fail/fail",
+    "pages/timeMachine/loveNankai/success/success",
+  	"pages/wishNineteen/wishNineteen",
+    "pages/wishNineteen/avatar/avatar",
+    "pages/wishNineteen/nickname/nickname",
+    "pages/wishNineteen/poster/poster"
   ],
   "window": {
     "backgroundTextStyle": "bold",

@@ -11,8 +11,8 @@
   </view>
 </view>
 <view class='container'>
-  <button class='block-button' bindtap='gotoLoveNankai'>
-    <image class='button-image' src='http://image.potatofield.cn/18-10-30/56121876.jpg'></image>
+  <button class='block-button' bindtap='gotoFlagNineteen'>
+    <image class='button-image' src='http://image.potatofield.cn/18-11-14/10587524.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>

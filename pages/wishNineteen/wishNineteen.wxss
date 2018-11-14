@@ -1,0 +1,17 @@
+.wish {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  height: 40vw;
+}
+
+.flag {
+  padding: 30rpx;
+  height: 300rpx;
+  border-radius: 40rpx;
+  color: #000000;
+  background: #ffffff;
+  font-size: 32rpx;
+  line-height: 50rpx;
+}

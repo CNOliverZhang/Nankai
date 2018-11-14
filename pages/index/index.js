@@ -18,11 +18,10 @@ Page({
       }
     })
   },
-
-  //我与南开谈恋爱
-  gotoLoveNankai: function () {
+//许愿2019
+  gotoFlagNineteen: function () {
     wx.navigateTo({
-      url: '/pages/loveNankai/loveNankai',
+      url: '/pages/wishNineteen/wishNineteen',
     })
   },
 

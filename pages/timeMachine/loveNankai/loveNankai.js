@@ -1,15 +1,18 @@
-// pages/loveNankai/fail/fail.js
+// pages/loveNankai/loveNankai.js
 Page({
 
   data: {
     shareImage: 'https://image.potatofield.cn/18-10-30/5857730.jpg'
   },
 
+  /**
+   * 生命周期函数--监听页面加载
+   */
   onLoad: function (options) {
     var that = this;
     wx.downloadFile({
       url: that.data.shareImage,
-      success: function (res) {
+      success: function(res) {
         var tempFilePath = res.tempFilePath
         that.setData({
           shareImage: tempFilePath
@@ -18,22 +21,33 @@ Page({
     })
   },
 
-  prev: function () {
+  prev: function() {
     wx.redirectTo({
-      url: '/pages/index/index',
+      url: '/pages/timeMachine/timeMachine',
     })
   },
 
-  retry: function () {
+  hard: function () {
     wx.redirectTo({
-      url: '../loveNankai',
+      url: 'play/play?chances=3&speed=150&level=hard',
+    })
+  },
+
+  normal: function () {
+    wx.redirectTo({
+      url: 'play/play?chances=3&speed=250&level=normal',
+    })
+  },
+
+  easy: function () {
+    wx.redirectTo({
+      url: 'play/play?chances=3&speed=500&level=easy',
     })
   },
 
   onShareAppMessage: function () {
     return {
       title: "快来和南开“弹”恋爱",
-      path: '../loveNankai',
       imageUrl: this.data.shareImage,
       success: function (res) {
         wx.showToast({

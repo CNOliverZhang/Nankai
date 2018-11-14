@@ -14,6 +14,20 @@
 </view>
 <view class='container'>
   <view class='subtitle'>
+    <text>我与南开弹恋爱</text>
+  </view>
+  <view class='content indent'>
+    <text>这是2018年10月30日推出的，配合“南缘北至”活动的小程序。你可以尝试弹奏南开校歌，与南开“弹”个恋爱。</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoLoveNankai'>
+    <image class='button-image' src='http://image.potatofield.cn/18-10-30/56121876.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <view class='subtitle'>
     <text>九九南开，等一个你</text>
   </view>
   <view class='content indent'>

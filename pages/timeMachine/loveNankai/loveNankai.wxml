@@ -43,7 +43,7 @@
 </view>
 <view class='container'>
   <view class='two-columns'>
-    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回主界面</button>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回时光机</button>
     <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
   </view>
 </view>
