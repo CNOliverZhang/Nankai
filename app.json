@@ -16,10 +16,12 @@
     "pages/timeMachine/loveNankai/poster/poster",
     "pages/timeMachine/loveNankai/fail/fail",
     "pages/timeMachine/loveNankai/success/success",
-  	"pages/wishNineteen/wishNineteen",
+    "pages/wishNineteen/wishNineteen",
     "pages/wishNineteen/avatar/avatar",
     "pages/wishNineteen/nickname/nickname",
-    "pages/wishNineteen/poster/poster"
+    "pages/wishNineteen/poster/poster",
+    "pages/reformForty/reformForty",
+    "pages/reformForty/answer/answer"
   ],
   "window": {
     "backgroundTextStyle": "bold",

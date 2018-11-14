@@ -2,7 +2,7 @@
   <image class='wish' src='http://image.potatofield.cn/18-11-14/82915618.jpg'></image>
 </view>
 <view class='container'>
-  <textarea placeholder='请在这里写下你2019年的目标~' maxlength='84' bindinput='bindKeyInput' show-confirm-bar='False' class='flag'></textarea>
+  <textarea placeholder='请在这里写下你2019年的目标~' maxlength='84' bindinput='bindKeyInput' show-confirm-bar='false' class='flag'></textarea>
 </view>
 <view class='container'>
   <button class='bar-button' hover-class='bar-button__hover' bindtap='next'>我写好了，继续吧</button>
