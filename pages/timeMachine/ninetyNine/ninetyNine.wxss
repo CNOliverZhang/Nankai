@@ -1,7 +1,4 @@
-.wish {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.logo {
   width: 60vw;
   height: 40vw;
 }

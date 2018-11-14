@@ -1,5 +1,5 @@
 <view class='container'>
-  <image class='wish' src='http://image.potatofield.cn/18-10-24/70717601.jpg'></image>
+  <image class='logo' src='http://image.potatofield.cn/18-10-24/70717601.jpg'></image>
 </view>
 <view class='container'>
   <input placeholder='用一句话表达你对母校的热爱吧' maxlength='15' bindinput='bindKeyInput'></input>

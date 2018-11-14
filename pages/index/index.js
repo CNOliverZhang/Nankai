@@ -4,7 +4,7 @@ Page({
 
   data: {
     imageUrl: 'https://image.potatofield.cn/18-10-24/3328292.jpg',
-  },
+  }, 
 
   onLoad: function() {
     var that = this
@@ -18,7 +18,15 @@ Page({
       }
     })
   },
-//许愿2019
+  
+  //改革开放
+  gotoReformForty: function () {
+    wx.navigateTo({
+      url: '/pages/reformForty/reformForty',
+    })
+  },
+
+  //许愿2019
   gotoFlagNineteen: function () {
     wx.navigateTo({
       url: '/pages/wishNineteen/wishNineteen',

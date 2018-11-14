@@ -1,1 +1,35 @@
-/* pages/reformForty/answer/answer.wxss */
+page {
+  background-image: url(http://image.potatofield.cn/18-11-15/8759091.jpg);
+}
+
+navigator {
+  color: #ff9900;
+}
+
+.bar-button {
+  background-color: #ffcc00;
+}
+
+.bar-button__hover {
+  background-color: #ff9900;
+}
+
+.return-button {
+  background-color: #aaaaaa;
+}
+
+.return-button__hover {
+  background-color: #919191;
+}
+
+.question {
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.poster-canvas {
+  width: 1620px;
+  height: 1080px;
+  position: fixed;
+  top: 9999px;
+}

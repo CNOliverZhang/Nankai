@@ -21,7 +21,8 @@
     "pages/wishNineteen/nickname/nickname",
     "pages/wishNineteen/poster/poster",
     "pages/reformForty/reformForty",
-    "pages/reformForty/answer/answer"
+    "pages/reformForty/answer/answer",
+    "pages/reformForty/poster/poster"
   ],
   "window": {
     "backgroundTextStyle": "bold",

@@ -1,4 +1,9 @@
 <view class='container'>
+  <view class='title'>
+    <text>许愿签</text>
+  </view>
+</view>
+<view class='container'>
   <view class='content indent'>
     <text>快把许愿签保存下来吧，记得要时时督促自己哦~</text>
   </view>

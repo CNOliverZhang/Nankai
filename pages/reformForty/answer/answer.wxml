@@ -1,2 +1,36 @@
-<!--pages/reformForty/answer/answer.wxml-->
-<text>pages/reformForty/answer/answer.wxml</text>
+<view class='container'>
+  <view class='content question'>
+    <text>{{page + 1}}.{{currentQuestion}}</text>
+  </view>
+</view>
+<radio-group bindchange='radioChange'>
+  <view class='container'>
+    <label class='content'>
+      <radio value='A' class='radio' checked='{{checked}}'>{{currentSelectA}}</radio>
+    </label>
+  </view>
+  <view class='container'>
+    <label class='content'>
+      <radio value='B' class='radio' checked='{{checked}}'>{{currentSelectB}}</radio>
+    </label>
+  </view>
+  <view class='container'>
+    <label class='content'>
+      <radio value='C' class='radio' checked='{{checked}}'>{{currentSelectC}}</radio>
+    </label>
+  </view>
+  <view class='container'>
+    <label class='content'>
+      <radio value='D' class='radio' checked='{{checked}}'>{{currentSelectD}}</radio>
+    </label>
+  </view>
+</radio-group>
+<view class='container'>
+  <view class='instruction'>
+    <text>当前第{{page + 1}}题，共20题</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='bindNextQuestion'>{{buttonContent}}</button>
+</view>
+<canvas class='poster-canvas' canvas-id='poster'></canvas>

@@ -6,11 +6,6 @@ navigator {
   color: #ff9900;
 }
 
-.logo {
-  width: 60vw;
-  height: 40vw;
-}
-
 .bar-button {
   background-color: #ffcc00;
 }
@@ -25,4 +20,12 @@ navigator {
 
 .return-button__hover {
   background-color: #919191;
+}
+
+.poster {
+  width: 75vw;
+  height: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

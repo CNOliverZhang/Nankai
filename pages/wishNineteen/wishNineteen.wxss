@@ -1,14 +1,36 @@
-.wish {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+page {
+  background-image: url(http://image.potatofield.cn/18-11-15/64874374.jpg)
+}
+
+navigator {
+  color: #c0376d
+}
+
+.bar-button {
+  background-color: #dd4f8e;
+}
+
+.bar-button__hover {
+  background-color: #c0376d;
+}
+
+.return-button {
+  background-color: #aaaaaa;
+}
+
+.return-button__hover {
+  background-color: #919191;
+}
+
+.logo {
   width: 60vw;
   height: 40vw;
 }
 
-.flag {
+.wish {
   box-sizing: border-box;
   padding: 30rpx;
+  width: 100%;
   height: 300rpx;
   border-radius: 40rpx;
   color: #000000;
