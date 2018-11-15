@@ -90,7 +90,7 @@ Page({
           that.setData({
             imagePath: tempFilePath,
           });
-          wx.navigateTo({
+          wx.redirectTo({
             url: '../poster/poster?imagePath=' + that.data.imagePath,
           })
         },

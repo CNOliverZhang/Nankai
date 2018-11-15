@@ -36,7 +36,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '改革开放知多少',
-      path: '../reformForty',
+      path: '/pages/reformForty/reformForty',
       imageUrl: this.data.shareImage,
       success: function (res) {
         wx.showToast({

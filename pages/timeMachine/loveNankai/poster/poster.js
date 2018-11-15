@@ -37,7 +37,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: "快来和南开“弹”恋爱",
-      path: '../loveNankai',
+      path: '/pages/timeMachine/loveNankai/loveNankai',
       imageUrl: this.data.shareImage,
       success: function (res) {
         wx.showToast({

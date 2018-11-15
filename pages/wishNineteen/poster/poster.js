@@ -19,7 +19,7 @@ Page({
       //保存成功
       success(res) {
         wx.showModal({
-          content: '海报已经保存到你的手机相册啦~',
+          content: '许愿签已经保存到你的手机相册啦~',
           showCancel: false,
           confirmText: '好的',
           confirmColor: '#333',
