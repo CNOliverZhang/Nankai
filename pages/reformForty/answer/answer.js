@@ -5,27 +5,38 @@ Page({
     page: 0,
     score: 0,
     imagePath: 'https://image.potatofield.cn/18-11-14/43294796.jpg',
-    questions: [{ question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" },
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" }, 
-      { question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d" },],
-    answers: ["A", "B", "A", "D", "B", "A", "D", "A", "B", "C", "A", "B", "A", "D", "B", "A", "D", "A", "B", "C"],
+    questionBank: [{ question: "测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "1测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "2测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "3测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "4测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "5测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "6测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "7测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "8测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "9测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "10测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "11测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "12测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "13测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "14测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "15测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "16测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "17测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "18测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "19测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "20测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "21测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "22测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "23测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "24测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "25测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "26测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "27测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "28测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "29测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },
+      { question: "30测试例题测试例题测试例题测试例题测试例题测试例题", selectA: "a", selectB: "b", selectC: "c", selectD: "d", answer: "A" },],
+    questions: [],
     buttonContent: "下一题",
     currentQuestion: "",
     currentSelectA: "",
@@ -37,6 +48,7 @@ Page({
 
   onLoad: function (options) {
     var that = this
+    that.selectQuestions()
     wx.downloadFile({
       url: that.data.imagePath,
       success: function (res) {
@@ -56,6 +68,25 @@ Page({
     })
   },
 
+  //随机抽取题目
+  selectQuestions: function () {
+    var that = this
+    var questionRange = that.data.questionBank.length
+    var selectedQuestions = []
+    var indexes = []
+    while (selectedQuestions.length < 10) {
+      var rand = Math.floor(Math.random() * questionRange)
+      if (indexes.indexOf(rand) == -1) {
+        indexes.push(rand)
+        selectedQuestions.push(that.data.questionBank[rand])
+      }
+    }
+    that.setData({
+      questions: selectedQuestions
+    })
+  },
+
+  //绘制成绩单
   createPoster: function () {
     wx.showToast({
       title: '正在阅卷中',
@@ -112,7 +143,7 @@ Page({
     })
   },
 
-  //下一题
+  //点击下一题按钮
   bindNextQuestion: function () {
     var that = this;
     //判断是否未填写
@@ -131,20 +162,21 @@ Page({
     }
   },
 
+  //跳转到下一题
   nextQuestion: function () {
     var that = this;
     var currentPage = that.data.page;
     var currentScore = that.data.score;
 
     //判断当前题目是否做对
-    if (that.data.currentAnswer == that.data.answers[currentPage]) {
+    if (that.data.currentAnswer == that.data.questions[currentPage].answer) {
       that.setData({
-        score: currentScore + 5,
+        score: currentScore + 10,
       })
     }
 
     //不是最后一页
-    if (that.data.page < 19) {
+    if (that.data.page < 9) {
       //清空当前选框
       that.setData({
         checked: "",
@@ -165,7 +197,7 @@ Page({
         currentSelectD: that.data.questions[currentPage].selectD
       });
 
-      if (currentPage == 19) {
+      if (currentPage == 9) {
         that.setData({
           buttonContent: "交卷"
         })

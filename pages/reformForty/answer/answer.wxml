@@ -27,7 +27,7 @@
 </radio-group>
 <view class='container'>
   <view class='instruction'>
-    <text>当前第{{page + 1}}题，共20题</text>
+    <text>当前第{{page + 1}}题，共10题</text>
   </view>
 </view>
 <view class='container'>
