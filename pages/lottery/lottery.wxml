@@ -8,19 +8,13 @@
 </view>
 <view class='container'>
   <button class='block-button' bindtap='gotoReformForty'>
-    <view class='two-columns'>
-      <image></image>
-    </view>
-    <view class='button-mask' hover-class='button-mask__hover'></view>
-  </button>
-</view>
-<view class='container'>
-  <button class='block-button' bindtap='gotoReformForty'>
-    <view class='container'>
-      <view class='mode'>
-        <image class='icon' mode='widthFix' src='http://image.potatofield.cn/18-11-21/86474431.jpg'></image>
+    <view class='container row-flex'>
+      <view class='half'>
+        <image style='width: 100%' mode='widthFix' src='http://image.potatofield.cn/18-11-21/86474431.jpg'></image>
+      </view>
+      <view class='half'>
         <view class='content'>
-          <text>从一定号码范围内随机抽取一定量的获奖者</text>
+          <text>输入号码范围和抽奖人数，一次性随机抽取获奖者</text>
         </view>
       </view>
     </view>
@@ -28,8 +22,25 @@
   </button>
 </view>
 <view class='container'>
-  <view class='two-columns'>
+  <button class='block-button' bindtap='gotoReformForty'>
+    <view class='container row-flex'>
+      <view class='half'>
+        <image style='width: 100%' mode='widthFix' src='http://image.potatofield.cn/18-11-21/86474431.jpg'></image>
+      </view>
+      <view class='half'>
+        <view class='content'>
+          <text>输入号码范围和抽签次数，每次随机抽取一个号码</text>
+        </view>
+      </view>
+    </view>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container row-flex'>
+  <view class='half'>
     <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回首页</button>
+  </view>
+  <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
   </view>
 </view>
