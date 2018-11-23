@@ -7,9 +7,7 @@
   </view>
 </view>
 <view class='container'>
-  <view class='inputBox'>
-    <input placeholder='输入荷花节想说的话' maxlength='10' bindinput='bindKeyInput'></input>
-  </view>
+  <input placeholder='输入荷花节想说的话' maxlength='10' bindinput='bindKeyInput'></input>
 </view>
 <view class='container'>
   <view class='content indent'>
@@ -19,19 +17,23 @@
 <view class='container'>
   <button class='bar-button' hover-class='bar-button__hover' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>生成邀请函</button>
 </view>
-<view class='container'>
-  <view class='two-columns'>
+<view class='container row-flex'>
+  <view class='half'>
     <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回时光机</button>
+  </view>
+  <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给好友</button>
   </view>
 </view>
 <view class='image-holder' hidden='{{showLotusHolder == false}}'>
   <image src='{{imagePath}}' class='lotus'></image>
-  <view class='container'>
-    <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
-  </view>
-  <view class='container'>
-    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='cancel'>取消保存</button>
+  <view class='container row-flex'>
+    <view class='half'>
+      <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
+    </view>
+    <view class='half'>
+      <button class='bar-button return-button' hover-class='return-button__hover' bindtap='cancel'>取消保存</button>
+    </view>
   </view>
 </view>
 <view class='container'>
@@ -39,7 +41,7 @@
     <text>Copyright © 2018</text>
   </view>
   <view class='copyright'>
-    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
 <canvas class='lotus-canvas' canvas-id='lotus'></canvas>

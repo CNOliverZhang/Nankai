@@ -12,18 +12,16 @@
     <text>我们为你准备了纪念品，快写下你的名字，领走你的专属奖状吧！</text>
   </view>
 </view>
-<view class='container'>
-  <input placeholder='输入姓名或昵称' maxlength='6' bindinput='bindKeyInput'></input>
-</view>
-<view class='container'>
-  <button class='bar-button small' hover-class='bar-button__hover' bindtap='bindConfirm'>确定</button>
+<view class='container row-flex'>
+  <input class='side-input' placeholder='请输入姓名或昵称' maxlength='6' bindinput='bindKeyInput'></input>
+  <button class='bar-button side-button' hover-class='bar-button__hover' bindtap='bindConfirm'>确定</button>
 </view>
 <view class='container'>
   <view class='copyright'>
     <text>Copyright © 2018</text>
   </view>
   <view class='copyright'>
-    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
 <canvas class='poster-canvas' canvas-id='poster'></canvas>

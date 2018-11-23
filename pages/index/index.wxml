@@ -7,7 +7,7 @@
     <text>Copyright © 2018</text>
   </view>
   <view class='content center'>
-    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
 <view class='container'>
@@ -29,14 +29,22 @@
   </button>
 </view>
 <view class='container'>
+  <button class='block-button' bindtap='gotoLottery'>
+    <image class='button-image' src='http://image.potatofield.cn/18-11-21/4426294.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
   <button class='block-button' bindtap='gotoTimeMachine'>
     <image class='button-image' src='http://image.potatofield.cn/18-10-27/37330841.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>
-<view class='container'>
-  <view class='two-columns'>
+<view class='container row-flex'>
+  <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
-    <button class='bar-button' hover-class='bar-button__hover' bindtap='actionSheet'>更多操作</button>
+  </view>
+  <view class='half'>
+    <button class='bar-button half' hover-class='bar-button__hover' bindtap='actionSheet'>更多操作</button>
   </view>
 </view>

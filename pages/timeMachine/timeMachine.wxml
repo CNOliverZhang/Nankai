@@ -62,6 +62,6 @@
     <text>Copyright © 2018</text>
   </view>
   <view class='copyright'>
-    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>

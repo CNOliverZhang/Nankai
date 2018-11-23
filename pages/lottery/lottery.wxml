@@ -1,0 +1,35 @@
+<view class='container'>
+  <image class='logo' src='http://image.potatofield.cn/18-11-21/86474431.jpg'></image>
+</view>
+<view class='container'>
+  <view class='title'>
+    <text>请选择模式</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoReformForty'>
+    <view class='two-columns'>
+      <image></image>
+    </view>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoReformForty'>
+    <view class='container'>
+      <view class='mode'>
+        <image class='icon' mode='widthFix' src='http://image.potatofield.cn/18-11-21/86474431.jpg'></image>
+        <view class='content'>
+          <text>从一定号码范围内随机抽取一定量的获奖者</text>
+        </view>
+      </view>
+    </view>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <view class='two-columns'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回首页</button>
+    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
+  </view>
+</view>

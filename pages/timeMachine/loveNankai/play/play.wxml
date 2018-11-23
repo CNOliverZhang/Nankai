@@ -13,47 +13,59 @@
     <text>你还剩余{{chances}}次失误机会</text>
   </view>
 </view>
-<view class='container'>
-  <view class='three-columns'>
+<view class='container row-flex'>
+  <view class='one-third'>
     <button class='block' id='LowSo' bindtap='click'>
       <image class='{{LowSo}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
     </button>
+  </view>
+  <view class='one-third'>
     <button class='block' id='LowSi' bindtap='click'>
       <image class='{{LowSi}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
     </button>
+  </view>
+  <view class='one-third'>
     <button class='block' id='Do' bindtap='click'>
       <image class='{{Do}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
     </button>
   </view>
 </view>
-<view class='container'>
-  <view class='three-columns'>
+<view class='container row-flex'>
+  <view class='one-third'>
     <button class='block' id='Re' bindtap='click'>
       <image class='{{Re}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
     </button>
+  </view>
+  <view class='one-third'>
     <view class='block no-background'>
       <image class='active' src='http://image.potatofield.cn/18-10-24/7129900.jpg'></image>
     </view>
+  </view>
+  <view class='one-third'>
     <button class='block' id='Mi' bindtap='click'>
       <image class='{{Mi}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
     </button>
   </view>
 </view>
-<view class='container'>
-  <view class='three-columns'>
+<view class='container row-flex'>
+  <view class='one-third'>
     <button class='block' id='Fa' bindtap='click'>
       <image class='{{Fa}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
     </button>
+  </view>
+  <view class='one-third'>
     <button class='block' id='So' bindtap='click'>
       <image class='{{So}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
     </button>
+  </view>
+  <view class='one-third'>
     <button class='block' id='La' bindtap='click'>
       <image class='{{La}}' src='http://image.potatofield.cn/18-10-28/47110844.jpg'></image>
       <view class='button-mask' hover-class='button-mask__hover'></view>
@@ -65,6 +77,6 @@
     <text>Copyright © 2018</text>
   </view>
   <view class='copyright'>
-    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>

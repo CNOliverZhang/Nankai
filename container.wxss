@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

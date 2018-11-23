@@ -1,0 +1,51 @@
+page {
+  background-image: url(http://image.potatofield.cn/18-11-21/3817156.jpg)
+}
+
+navigator {
+  color: #9b3c5b
+}
+
+.bar-button {
+  background-color: #de5782;
+}
+
+.bar-button__hover {
+  background-color: #9b3c5b;
+}
+
+.return-button {
+  background-color: #aaaaaa;
+}
+
+.return-button__hover {
+  background-color: #919191;
+}
+
+.logo {
+  width: 60vw;
+  height: 40vw;
+}
+
+.icon {
+  flex: 1;
+  width: 100%;
+}
+
+.title {
+  color: #de5782;
+}
+
+.subtitle {
+  color: #de5782;
+}
+
+.content {
+  flex: 1;
+}
+
+.mode {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

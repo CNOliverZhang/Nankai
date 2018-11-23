@@ -1,11 +1,13 @@
 <view class='container'>
   <image class='logo' src='http://image.potatofield.cn/18-10-21/18450561.jpg'></image>
 </view>
-<view class='container'>
-  <view class='two-columns'>
+<view class='container row-flex'>
+  <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' bindtap='fromAlbum'>打开相册选择</button>
+  </view>
+  <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>使用微信头像</button>
-  </view>  
+  </view>
 </view>
 <view class='container'>
   <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
@@ -15,11 +17,13 @@
 </view>
 <view class='image-holder' hidden='{{showAvatarHolder == false}}'>
   <image src='{{imagePath}}' class='avatar'></image>
-  <view class='container'>
-    <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
-  </view>
-  <view class='container'>
-    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='cancel'>取消保存</button>
+  <view class='container row-flex'>
+    <view class='half'>
+      <button class='bar-button return-button' hover-class='return-button__hover' bindtap='cancel'>取消保存</button>
+    </view>
+    <view class='half'>
+      <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
+    </view>
   </view>
 </view>
 <view class='container'>
@@ -27,7 +31,7 @@
     <text>Copyright © 2018</text>
   </view>
   <view class='copyright'>
-    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
 <canvas class='avatar-canvas' canvas-id='avatarCanvas'></canvas>

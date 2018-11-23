@@ -22,7 +22,8 @@
     "pages/wishNineteen/poster/poster",
     "pages/reformForty/reformForty",
     "pages/reformForty/answer/answer",
-    "pages/reformForty/poster/poster"
+    "pages/reformForty/poster/poster",
+    "pages/lottery/lottery"
   ],
   "window": {
     "backgroundTextStyle": "bold",

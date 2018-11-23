@@ -1,0 +1,51 @@
+navigator {
+  color: #7a0c6e;
+}
+
+.copyright {
+  font-size: 28rpx;
+  color: #787878;
+  text-align: center;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+
+.instruction {
+  text-align: center;
+  font-size: 24rpx;
+  color: #787878;
+}
+
+.title {
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48rpx;
+  color: #7a0c6e;
+}
+
+.subtitle {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #7a0c6e;
+}
+
+.content {
+  text-align: justify;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+  color: #787878;
+}
+
+.center {
+  text-align: center;
+}
+
+.indent {
+  text-indent: 2em;
+}

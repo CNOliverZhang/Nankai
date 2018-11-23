@@ -33,6 +33,13 @@ Page({
     })
   },
 
+  //抽奖抽签小助手
+  gotoLottery: function () {
+    wx.navigateTo({
+      url: '/pages/lottery/lottery',
+    })
+  },
+
   //头像生成器
   gotoAvatarCreator: function() {
     wx.navigateTo({

@@ -1,0 +1,7 @@
+.half {
+  flex-basis: 45%;
+}
+
+.one-third {
+  flex-basis: 30%;
+}

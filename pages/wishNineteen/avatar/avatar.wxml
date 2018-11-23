@@ -4,9 +4,11 @@
 <view class='container instruction'>
   <text>你需要选择一张图片作为许愿签上的头像哦~</text>
 </view>
-<view class='container'>
-  <view class='two-columns'>
+<view class='container row-flex'>
+  <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' bindtap='fromAlbum'>选择图片上传</button>
+  </view>
+  <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>使用微信头像</button>
   </view>
 </view>
@@ -18,6 +20,6 @@
     <text>Copyright © 2018</text>
   </view>
   <view class='copyright'>
-    <navigator url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
