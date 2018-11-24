@@ -13,7 +13,7 @@
 </view>
 <view class='container row-flex'>
   <view class='half'>
-    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='exit'>返回首页</button>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='exit'>退出</button>
   </view>
   <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>

@@ -60,7 +60,7 @@
     <text>功能逻辑代码</text>
   </view>
   <view class='content center'>
-    <text>张志毅 陈鸿泽</text>
+    <text>张志毅 陈鸿泽 樊漆亮</text>
   </view>
   <view class='subtitle'>
     <text>前端样式代码</text>
@@ -76,5 +76,5 @@
   </view>
 </view>
 <view class='container'>
-  <button class='bar-button' hover-class='bar-button__hover' bindtap='return'>返回</button>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='return'>退出</button>
 </view>

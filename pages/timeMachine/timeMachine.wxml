@@ -55,7 +55,7 @@
   </button>
 </view>
 <view class='container'>
-  <button class='bar-button' hover-class='bar-button__hover' bindtap='prev'>返回主界面</button>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='prev'>退出</button>
 </view>
 <view class='container'>
   <view class='copyright'>
