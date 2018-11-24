@@ -1,0 +1,78 @@
+page {
+  background-image: url(http://image.potatofield.cn/18-11-24/9938745.jpg)
+}
+
+navigator {
+  color: #de5782;
+}
+
+.bar-button {
+  background-color: #de5782;
+}
+
+.bar-button__hover {
+  background-color: #9b3c5b;
+}
+
+.return-button {
+  background-color: #aaaaaa;
+}
+
+.return-button__hover {
+  background-color: #919191;
+}
+
+.title {
+  color: #de5782;
+}
+
+.subtitle {
+  color: #de5782;
+}
+
+.logo {
+  width: 60vw;
+  height: 40vw;
+}
+
+.result-list {
+  border-radius: 60rpx;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.results {
+  margin: 20rpx;
+  border-radius: 40rpx;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #de5782;
+  color: #ffffff;
+}
+
+.result {
+  border-radius: 40rpx;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #de5782;
+  color: #ffffff;
+}
+
+.round-button {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #de5782;
+  color: #ffffff;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 30vw;
+}
+
+.round-button__hover {
+  background-color: #9b3c5b;
+}

@@ -1,0 +1,25 @@
+<view class='container'>
+  <image class='logo' src='http://image.potatofield.cn/18-11-24/45559169.jpg'></image>
+</view>
+<view class='container'>
+  <input placeholder='请输入起始号码' type='number' bindinput='getStart'></input>
+</view>
+<view class='container'>
+  <input placeholder='请输入结束号码' type='number' bindinput='getEnd'></input>
+</view>
+<view class='container row-flex'>
+  <view class='half'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回首页</button>
+  </view>
+  <view class='half'>
+    <button class='bar-button' hover-class='bar-button__hover' bindtap='next'>下一步</button>
+  </view>
+</view>
+<view class='container'>
+  <view class='copyright'>
+    <text>Copyright © 2018</text>
+  </view>
+  <view class='copyright'>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+  </view>
+</view>

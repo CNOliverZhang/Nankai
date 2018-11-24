@@ -22,11 +22,6 @@ navigator {
   background-color: #919191;
 }
 
-.logo {
-  width: 60vw;
-  height: 40vw;
-}
-
 .title {
   color: #de5782;
 }

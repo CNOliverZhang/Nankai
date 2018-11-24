@@ -1,14 +1,3 @@
-button {
-  border-radius: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-button::after {
-  border-radius: 0;
-  border: none;
-}
-
 .bar-button {
   height: 80rpx;
   line-height: 80rpx;

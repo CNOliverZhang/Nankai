@@ -22,15 +22,27 @@ navigator {
   background-color: #919191;
 }
 
-.logo {
-  width: 60vw;
-  height: 40vw;
-}
-
 .title {
   color: #de5782;
 }
 
 .subtitle {
   color: #de5782;
+}
+
+.round-picker {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #de5782;
+  color: #ffffff;
+  font-size: 15vw;
+  text-align: center;
+  line-height: 30vw;
+}
+
+.round-picker__hover {
+  background-color: #9b3c5b;
 }

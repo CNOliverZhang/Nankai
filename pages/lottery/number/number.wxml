@@ -1,0 +1,26 @@
+<view class='container'>
+  <image class='logo' src='http://image.potatofield.cn/18-11-24/3575814.jpg'></image>
+</view>
+<view wx:if="{{mode==='multiple'}}" class='container title'>
+  <text>请选择抽奖人数</text>
+</view>
+<view wx:else class='container title'>
+  <text>请选择抽签次数</text>
+</view>
+<view class='container'>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class='round-picker' hover-class='round-picker__hover'>{{array[index]}}</view>
+  </picker>
+</view>
+<view class='container'>
+  <button wx:if="{{mode==='multiple'}}" class='bar-button' hover-class='bar-button__hover' bindtap='next'>抽奖</button>
+  <button wx:else class='bar-button' hover-class='bar-button__hover' bindtap='next'>下一步</button>
+</view>
+<view class='container'>
+  <view class='copyright'>
+    <text>Copyright © 2018</text>
+  </view>
+  <view class='copyright'>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
+  </view>
+</view>

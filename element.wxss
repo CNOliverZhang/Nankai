@@ -1,0 +1,23 @@
+navigator {
+  color: #7a0c6e;
+}
+
+input {
+  text-align: center;
+  height: 80rpx;
+  border-radius: 40rpx;
+  color: #000000;
+  background: #ffffff;
+  font-size: 32rpx;
+}
+
+button {
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+button::after {
+  border-radius: 0;
+  border: none;
+}

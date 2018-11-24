@@ -23,7 +23,10 @@
     "pages/reformForty/reformForty",
     "pages/reformForty/answer/answer",
     "pages/reformForty/poster/poster",
-    "pages/lottery/lottery"
+    "pages/lottery/lottery",
+    "pages/lottery/range/range",
+    "pages/lottery/number/number",
+    "pages/lottery/result/result"
   ],
   "window": {
     "backgroundTextStyle": "bold",

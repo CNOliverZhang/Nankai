@@ -7,30 +7,22 @@
   </view>
 </view>
 <view class='container'>
-  <button class='block-button' bindtap='gotoReformForty'>
+  <button class='block-button' bindtap='multipleMode'>
     <view class='container row-flex'>
-      <view class='half'>
-        <image style='width: 100%' mode='widthFix' src='http://image.potatofield.cn/18-11-21/86474431.jpg'></image>
-      </view>
-      <view class='half'>
-        <view class='content'>
-          <text>输入号码范围和抽奖人数，一次性随机抽取获奖者</text>
-        </view>
+      <image class='half' mode='widthFix' src='http://image.potatofield.cn/18-11-24/74898333.jpg'></image>
+      <view class='half content'>
+        <text>输入号码范围和抽奖人数，一次性随机抽取获奖者</text>
       </view>
     </view>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>
 <view class='container'>
-  <button class='block-button' bindtap='gotoReformForty'>
+  <button class='block-button' bindtap='singleMode'>
     <view class='container row-flex'>
-      <view class='half'>
-        <image style='width: 100%' mode='widthFix' src='http://image.potatofield.cn/18-11-21/86474431.jpg'></image>
-      </view>
-      <view class='half'>
-        <view class='content'>
-          <text>输入号码范围和抽签次数，每次随机抽取一个号码</text>
-        </view>
+      <image class='half' mode='widthFix' src='http://image.potatofield.cn/18-11-24/69411768.jpg'></image>
+      <view class='half content'>
+        <text>输入号码范围和抽签次数，每次随机抽取一个号码</text>
       </view>
     </view>
     <view class='button-mask' hover-class='button-mask__hover'></view>
@@ -42,5 +34,13 @@
   </view>
   <view class='half'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
+  </view>
+</view>
+<view class='container'>
+  <view class='copyright'>
+    <text>Copyright © 2018</text>
+  </view>
+  <view class='copyright'>
+    <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
