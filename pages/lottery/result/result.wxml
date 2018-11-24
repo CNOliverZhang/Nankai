@@ -6,7 +6,7 @@
     <text>本次抽奖结果于{{time}}产生</text>
   </view>
   <view class='container result-list'>
-    <view wx:for="{{results}}" wx:key="*this" class='results'>{{item}}</view>
+    <view wx:for="{{result}}" wx:key="*this" class='results'>{{item}}</view>
   </view>
   <view class='container'>
     <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享当前抽奖结果</button>
@@ -17,7 +17,7 @@
     <image class='logo' src='http://image.potatofield.cn/18-11-24/69411768.jpg'></image>
   </view>
   <view class='container instruction'>
-    <text>当前准备抽取第{{index}}枚签，共{{result.length}}枚</text>
+    <text>当前已抽取{{index}}枚签，共{{result.length}}枚</text>
   </view>
   <view class='container'>
     <view class='result'>{{current}}</view>
