@@ -12,8 +12,12 @@
   <button class='bar-button' hover-class='bar-button__hover' open-type='getUserInfo' bindgetuserinfo='bindGetNickname'>获取微信昵称</button>
 </view>
 <view class='container row-flex'>
-  <button class='bar-button return-button half' hover-class='return-button__hover' bindtap='prev'>退出</button>
-  <button class='bar-button half' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
+  <view class='half'>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>退出</button>
+  </view>
+  <view class='half'>
+    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给朋友</button>
+  </view>
 </view>
 <view class='container'>
   <view class='copyright'>
