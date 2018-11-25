@@ -9,10 +9,10 @@
     <text>Copyright © 2018</text>
   </view>
   <view class='content center'>
-    <text>南开大学团委宣传部</text>
+    <text>南开大学团委网络新媒体运营中心</text>
   </view>
   <view class='content center'>
-    <text>南开大学团委网络新媒体运营中心</text>
+    <text>南开大学团委宣传部</text>
   </view>
   <view class='title'>
     <text>版本信息</text>
@@ -21,10 +21,13 @@
     <text>当前版本</text>
   </view>
   <view class='content center'>
-    <text>2018年11月24日 v1.1.181124 Beta版</text>
+    <text>2018年11月25日 v1.2.181125 正式版</text>
   </view>
   <view class='subtitle'>
     <text>版本历史</text>
+  </view>
+  <view class='content center'>
+    <text>2018年11月24日 v1.1.181124 Beta版</text>
   </view>
   <view class='content center'>
     <text>2018年11月20日 v1.1.181120 Beta版</text>

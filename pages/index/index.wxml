@@ -10,6 +10,7 @@
     <navigator open-type='redirect' url='/pages/about/about'>南开大学团委网络新媒体运营中心</navigator>
   </view>
 </view>
+<!--
 <view class='container'>
   <button class='block-button' bindtap='gotoReformForty'>
     <image class='button-image' src='http://image.potatofield.cn/18-11-14/8563060.jpg'></image>
@@ -22,15 +23,16 @@
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>
+-->
 <view class='container'>
-  <button class='block-button' bindtap='gotoAvatarCreator'>
-    <image class='button-image' src='http://image.potatofield.cn/18-10-27/9492853.jpg'></image>
+  <button class='block-button' bindtap='gotoLottery'>
+    <image class='button-image' src='http://image.potatofield.cn/18-11-21/4426294.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>
 <view class='container'>
-  <button class='block-button' bindtap='gotoLottery'>
-    <image class='button-image' src='http://image.potatofield.cn/18-11-21/4426294.jpg'></image>
+  <button class='block-button' bindtap='gotoAvatarCreator'>
+    <image class='button-image' src='http://image.potatofield.cn/18-10-27/9492853.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>

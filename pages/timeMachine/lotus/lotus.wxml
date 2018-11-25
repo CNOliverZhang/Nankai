@@ -19,10 +19,10 @@
 </view>
 <view class='container row-flex'>
   <view class='half'>
-    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给好友</button>
+    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回时光机</button>
   </view>
   <view class='half'>
-    <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回时光机</button>
+    <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享给好友</button>
   </view>
 </view>
 <view class='image-holder' hidden='{{showLotusHolder == false}}'>

@@ -86,7 +86,7 @@ Page({
     })
   },
 
-  //绘制成绩单
+  //绘制成绩单并跳转下一页
   createPoster: function () {
     wx.showToast({
       title: '正在阅卷中',
@@ -122,7 +122,7 @@ Page({
             imagePath: tempFilePath,
           });
           wx.redirectTo({
-            url: '../poster/poster?imagePath=' + that.data.imagePath,
+            url: '../poster/poster?nickname=' + that.data.nickname + '&imagePath=' + that.data.imagePath,
           })
         },
         fail: function (res) {

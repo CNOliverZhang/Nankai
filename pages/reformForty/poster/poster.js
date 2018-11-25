@@ -8,6 +8,7 @@ Page({
   onLoad: function (options) {
     var that = this;
     that.setData({
+      nickname: options.nickname,
       imagePath: options.imagePath
     })
     wx.downloadFile({
@@ -29,7 +30,7 @@ Page({
 
   retry: function () {
     wx.redirectTo({
-      url: '../answer/answer',
+      url: '../answer/answer?nickname=' + this.data.nickname,
     })
   },
 
