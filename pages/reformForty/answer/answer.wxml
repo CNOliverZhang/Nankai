@@ -1,27 +1,27 @@
 <view class='container'>
   <view class='content question'>
-    <text>{{page + 1}}.{{currentQuestion}}</text>
+    <text>{{page + 1}}. {{currentQuestion}}</text>
   </view>
 </view>
 <radio-group bindchange='radioChange'>
   <view class='container'>
     <label class='content'>
-      <radio value='A' class='radio' checked='{{checked}}'>{{currentSelectA}}</radio>
+      <radio value='A' class='radio' checked='{{checked}}'></radio>{{currentSelectA}}
     </label>
   </view>
   <view class='container'>
     <label class='content'>
-      <radio value='B' class='radio' checked='{{checked}}'>{{currentSelectB}}</radio>
+      <radio value='B' class='radio' checked='{{checked}}'></radio>{{currentSelectB}}
     </label>
   </view>
   <view class='container'>
     <label class='content'>
-      <radio value='C' class='radio' checked='{{checked}}'>{{currentSelectC}}</radio>
+      <radio value='C' class='radio' checked='{{checked}}'></radio>{{currentSelectC}}
     </label>
   </view>
   <view class='container'>
     <label class='content'>
-      <radio value='D' class='radio' checked='{{checked}}'>{{currentSelectD}}</radio>
+      <radio value='D' class='radio' checked='{{checked}}'></radio>{{currentSelectD}}
     </label>
   </view>
 </radio-group>
