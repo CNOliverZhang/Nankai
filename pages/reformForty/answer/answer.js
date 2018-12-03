@@ -85,7 +85,7 @@ Page({
       { question: "上海迪士尼乐园于2016年6月正式开园，它的建成再次吸引人们把目光投向浦东。在新时期对外开放的过程中，上海浦东新区被誉为_____", selectA: "对外开放的窗口", selectB: "农村改革的排头兵", selectC: "城市改革的试验田", selectD: "扩大开放的窗口", answer: "D" },
       { question: "下列活动属于中国发展社会主义市场经济客观要求的是_____", selectA: "加入世贸组织", selectB: "以经济建设为中心", selectC: "南方谈话", selectD: "开放浦东", answer: "A" },
       { question: "2018年是我国设立经济特区_____周年", selectA: "28", selectB: "38", selectC: "30  ", selectD: "35", answer: "B" },
-      { qusetion: "改革开放前期（1979年）试办的经济特区不包括_____", selectA: "深圳", selectB: "厦门", selectC: "上海", selectD: "汕头", answer: "C" },
+      { question: "改革开放前期（1979年）试办的经济特区不包括_____", selectA: "深圳", selectB: "厦门", selectC: "上海", selectD: "汕头", answer: "C" },
       { question: "中国目前最大的经济特区是_____", selectA: "海南经济特区", selectB: "深圳经济特区", selectC: "上海经济特区", selectD: "厦门经济特区", answer: "A" },
       { question: "改革开放以来，民生工程大力开展，其中的三峡截流工程是在_____年正式竣工", selectA: "1994", selectB: "1996", selectC: "1997", selectD: "1999", answer: "C" },
       { question: "改革开放以来，中国文体事业蒸蒸日上，_____年是中国体育健儿第一次获得奥运会金牌的年份", selectA: "1980", selectB: "1982", selectC: "1984", selectD: "1986", answer: "C" },
