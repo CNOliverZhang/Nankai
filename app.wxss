@@ -1,9 +1,9 @@
-@import 'container.wxss';
-@import 'button.wxss';
-@import 'text.wxss';
-@import 'size.wxss';
-@import 'element.wxss';
-@import 'component.wxss';
+@import 'wxss/container.wxss';
+@import 'wxss/button.wxss';
+@import 'wxss/text.wxss';
+@import 'wxss/size.wxss';
+@import 'wxss/element.wxss';
+@import 'wxss/component.wxss';
 
 page {
   padding-top: 40rpx;

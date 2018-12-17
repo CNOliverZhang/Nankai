@@ -33,6 +33,14 @@ App({
       }
     })
   },
+
+  //处理不存在的页面
+  onPageNotFound(res) {
+    wx.redirectTo({
+      url: 'pages/index/index'
+    })
+  },
+
   globalData: {
     userInfo: null
   }

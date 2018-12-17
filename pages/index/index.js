@@ -22,14 +22,21 @@ Page({
   //改革开放
   gotoReformForty: function () {
     wx.navigateTo({
-      url: '/pages/reformForty/reformForty',
+      url: '/pages/timeMachine/reformForty/reformForty',
+    })
+  },
+
+  //回首2018
+  gotoByeEighteen: function () {
+    wx.navigateTo({
+      url: '/pages/timeMachine/byeEighteen/byeEighteen',
     })
   },
 
   //许愿2019
   gotoFlagNineteen: function () {
     wx.navigateTo({
-      url: '/pages/wishNineteen/wishNineteen',
+      url: '/pages/timeMachine/wishNineteen/wishNineteen',
     })
   },
 

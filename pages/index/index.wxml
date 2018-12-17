@@ -16,6 +16,12 @@
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoByeEighteen'>
+    <image class='button-image' src='http://image.potatofield.cn/18-12-17/54929529.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
 <!--
 <view class='container'>
   <button class='block-button' bindtap='gotoFlagNineteen'>

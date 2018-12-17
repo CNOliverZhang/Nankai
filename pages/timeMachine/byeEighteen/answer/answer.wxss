@@ -1,0 +1,6 @@
+.radar-canvas {
+  width: 1920px;
+  height: 1280px;
+  position: fixed;
+  margin-top: 9999px;
+}

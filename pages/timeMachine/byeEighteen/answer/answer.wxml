@@ -1,0 +1,17 @@
+<!--pages/Answer/Answer.wxml-->
+<view class='container top-view'>
+ <checkbox-group bindchange="checkboxChange">
+   <view class='container character'>
+     <text>{{categoryTitle}}</text>
+   </view>
+    <view class='container check-box' wx:for='{{choices}}' wx:key='unique'>
+      <checkbox value='{{item.name}}' checked='{{isChecked}}'>{{item.value}}</checkbox>
+   </view>
+ </checkbox-group>
+</view>
+
+<view class='container'>
+  <button class='bar-button' hover-class='bar-button__hover' bindtap='next'>{{buttonText}}</button>
+</view>
+
+<canvas class='radar-canvas' canvas-id='radarCanvas'></canvas>
