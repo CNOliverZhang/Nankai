@@ -13,7 +13,7 @@
   </view>
 </view>
 <view class='container'>
-  <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回重新许愿</button>
+  <button class='bar-button return-button' hover-class='return-button__hover' bindtap='prev'>返回重新填写昵称</button>
 </view>
 <view class='container'>
   <view class='copyright'>

@@ -1,8 +1,7 @@
-// pages/Report/Report.js
 Page({
 
   data: {
-    shareImage: "https://image.potatofield.cn/18-12-16/63364773.jpg",
+    shareImage: "https://image.potatofield.cn/18-12-17/61841224.jpg",
   },
 
   onLoad: function (options) {
@@ -17,7 +16,9 @@ Page({
       }
     })
     that.setData({
-      imagePath: options.imagePath
+      imagePath: options.imagePath,
+      remark: options.remark,
+      nickname: options.nickname
     })
   },
 

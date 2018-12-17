@@ -1,4 +1,43 @@
-/* pages/Report/Report.wxss */
+Page {
+  background-image: url('http://image.potatofield.cn/18-12-17/98930018.jpg')
+}
+
+navigator {
+  color: #ffffff
+}
+
+.bar-button {
+  background-color: #f43787
+}
+
+.bar-button__hover {
+  background-color: #c32c6c
+}
+
+.return-button {
+  background-color: #aaaaaa;
+}
+
+.return-button__hover {
+  background-color: #919191;
+}
+
+.title {
+  color: #ffffff
+}
+
+.content {
+  color: #ffffff
+}
+
+.instruction {
+  color: #ffffff
+}
+
+.copyright {
+  color: #ffffff
+}
+
 .poster {
   width: 75vw;
   height: 50vw;

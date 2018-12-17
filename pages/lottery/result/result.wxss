@@ -41,17 +41,8 @@ navigator {
   overflow: hidden;
 }
 
-.results {
-  margin: 20rpx;
-  border-radius: 40rpx;
-  text-align: center;
-  height: 80rpx;
-  line-height: 80rpx;
-  background-color: #de5782;
-  color: #ffffff;
-}
-
 .result {
+  margin: 20rpx;
   border-radius: 40rpx;
   text-align: center;
   height: 80rpx;

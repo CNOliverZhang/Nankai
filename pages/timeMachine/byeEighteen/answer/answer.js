@@ -7,27 +7,54 @@ Page({
       {
         category: '学术活动',
         remark: '学术狂人',
-        select: [{ name: 'study', value: '学术1' }, { name: 'study', value: '学术2' }, { name: 'study', value: '学术3' }, { name: 'study', value: '学术4' }]
+        select: [
+          { name: 'study', value: '学术1', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'study', value: '学术2', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'study', value: '学术3', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'study', value: '学术4', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' }
+        ]
       },
       {
         category: '体育活动',
         remark: '体育狂人',
-        select: [{ name: 'sports', value: '体育1' }, { name: 'sports', value: '体育2' }, { name: 'sports', value: '体育3' }]
+        select: [
+          { name: 'sports', value: '体育1', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'sports', value: '体育2', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'sports', value: '体育3', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' }
+        ]
       },
       {
         category: 'aaa活动',
         remark: 'aaa狂人',
-        select: [{ name: 'art', value: 'aa1' }, { name: 'art', value: 'aa2' }, { name: 'art', value: 'aa3' }, { name: 'art', value: 'aa4' }, { name: 'art', value: 'aa5' }]
+        select: [
+          { name: 'art', value: 'aa1', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'aa2', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'aa3', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'aa4', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'aa5', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' }
+        ]
       },
       {
         category: 'bb活动',
         remark: 'bb狂人',
-        select: [{ name: 'art', value: 'bb1' }, { name: 'art', value: 'bb2' }, { name: 'art', value: 'bb3' }, { name: 'art', value: 'bb4' }, { name: 'art', value: 'bb5' }]
+        select: [
+          { name: 'art', value: 'bb1', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb2', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb3', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb4', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb5', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' }
+        ]
       },
       {
         category: 'cc活动',
         remark: 'cc狂人',
-        select: [{ name: 'art', value: 'bb1' }, { name: 'art', value: 'bb2' }, { name: 'art', value: 'bb3' }, { name: 'art', value: 'bb4' }, { name: 'art', value: 'bb5' }]
+        select: [
+          { name: 'art', value: 'bb1', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb2', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb3', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb4', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' },
+          { name: 'art', value: 'bb5', description: '活动介绍活动介绍活动介绍活动介绍活动介绍' }
+        ]
       }
     ],
   },
@@ -104,6 +131,9 @@ Page({
         choices: that.data.activities[that.data.page].select.slice(),
         categoryScore: 0
       })
+      wx.pageScrollTo({
+        scrollTop: 0,
+      })
     } else {
       that.createRadar()
     }
@@ -127,8 +157,14 @@ Page({
       }
     }
     if (maxIndex == -1) {
+      this.setData({
+        remark: "佛系咸鱼"
+      })
       return "佛系咸鱼"
     }
+    this.setData({
+      remark: this.data.activities[maxIndex].remark
+    })
     return this.data.activities[maxIndex].remark
   },
 
@@ -275,7 +311,7 @@ Page({
             imagePath: tempFilePath
           })
           wx.redirectTo({
-            url: '../report/report?imagePath=' + that.data.imagePath,
+            url: '../report/report?imagePath=' + that.data.imagePath + '&nickname=' + that.data.nickname + '&remark=' + that.data.remark,
           })
         },
         fail: function (res) {

@@ -1,13 +1,29 @@
-<!--pages/Answer/Answer.wxml-->
-<view class='container top-view'>
- <checkbox-group bindchange="checkboxChange">
-   <view class='container character'>
-     <text>{{categoryTitle}}</text>
-   </view>
-    <view class='container check-box' wx:for='{{choices}}' wx:key='unique'>
-      <checkbox value='{{item.name}}' checked='{{isChecked}}'>{{item.value}}</checkbox>
-   </view>
- </checkbox-group>
+<view class='container'>
+  <view class='title'>
+    <text>{{categoryTitle}}</text>
+  </view>
+</view>
+<view class='container'>
+  <view class='instruction'>
+    <text>请勾选今年你参加过的{{categoryTitle}}~</text>
+  </view>
+</view>
+<view class='container'>
+  <checkbox-group bindchange="checkboxChange">
+    <view wx:for='{{choices}}' wx:key='unique'>
+      <view class='activity'>
+        <view class='subtitle'>
+          <text>{{item.value}}</text>
+        </view>
+        <view class='content indent'>
+          <text>{{item.description}}</text>
+        </view>
+        <view class='content'>
+          <checkbox value='{{item.name}}' checked='{{isChecked}}'>我参加了</checkbox>
+        </view>
+      </view>
+    </view>
+  </checkbox-group>
 </view>
 
 <view class='container'>

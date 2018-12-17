@@ -1,3 +1,65 @@
+Page {
+  background-image: url('http://image.potatofield.cn/18-12-17/98930018.jpg')
+}
+
+checkbox .wx-checkbox-input {
+  border: none;
+  background: #448aca;
+  border-radius: 15rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked {
+  width: 30rpx;
+  height: 30rpx;
+  border: none;
+  background: #f43787
+}
+
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+  font-size: 24rpx;
+  color: #ffffff;
+}
+
+.bar-button {
+  background-color: #f43787
+}
+
+.bar-button__hover {
+  background-color: #c32c6c
+}
+
+.title {
+  color: #ffffff
+}
+
+.subtitle {
+  color: #448aca
+}
+
+.content {
+  color: #448aca
+}
+
+.instruction {
+  color: #ffffff
+}
+
+.copyright {
+  color: #ffffff
+}
+
+.activity {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  overflow: hidden;
+  border-radius: 40rpx;
+  background-color: #ffffff
+}
+
 .radar-canvas {
   width: 1920px;
   height: 1280px;
