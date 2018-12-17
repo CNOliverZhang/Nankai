@@ -2,7 +2,7 @@ Page({
 
   data: {
     page: 0,
-    imagePath: "https://image.potatofield.cn/18-12-17/20349856.jpg",
+    imagePath: "https://image.potatofield.cn/18-12-18/18499258.jpg",
     activities:[
       {
         category: '学术活动',
