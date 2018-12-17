@@ -54,6 +54,7 @@ Page({
 
   onShareAppMessage: function () {
     return {
+      path: "/pages/timeMachine/byeEighteen/byeEighteen",
       title: "回首2018，快来测试你的南开气质吧~",
       imageUrl: this.data.shareImage,
       success: function (res) {
