@@ -77,6 +77,15 @@ Page({
       //初始化按钮文字
       buttonText: '下一页'
     })
+    //初始化复选框文本样式
+    var checkboxTextStyles = []
+    for (var i = 0; i < that.data.choices.length; i++) {
+      var tempStyle = 'content'
+      checkboxTextStyles.push(tempStyle)
+    }
+    that.setData({
+      checkboxTextStyles: checkboxTextStyles
+    })
     //获取头像尺寸以用于截图（确保截图截在中间）
     wx.getImageInfo({
       src: that.data.avatar,
@@ -99,9 +108,21 @@ Page({
     })
   },  
 
-  //改变多选框的值使得改组得分改变
+  //改变多选框的值使得改组得分改变，文本样式改变
   checkboxChange: function(e) {
     var that = this
+    for (var i = 0; i < that.data.choices.length; i++) {
+      var target = 'checkboxTextStyles[' + i + ']'
+      that.setData({
+        [target]: 'content'
+      })
+    }
+    for (var i = 0; i < e.detail.value.length; i++) {
+      var target = 'checkboxTextStyles[' + e.detail.value[i] + ']'
+      that.setData({
+        [target]: 'content attend'
+      })
+    }
     that.setData({
       categoryScore: e.detail.value.length
     })
@@ -126,11 +147,22 @@ Page({
 
     //判断点击按钮之后的操作
     if (that.data.page < that.data.categoryCount) {
+      //初始化标题和选项
       that.setData({
         categoryTitle: that.data.activities[that.data.page].category,
         choices: that.data.activities[that.data.page].select.slice(),
         categoryScore: 0
       })
+      //初始化复选框文本样式
+      var checkboxTextStyles = []
+      for (var i = 0; i < that.data.choices.length; i++) {
+        var tempStyle = 'content'
+        checkboxTextStyles.push(tempStyle)
+      }
+      that.setData({
+        checkboxTextStyles: checkboxTextStyles
+      })
+      //定位到页首
       wx.pageScrollTo({
         scrollTop: 0,
       })

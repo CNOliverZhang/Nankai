@@ -11,17 +11,19 @@
 <view class='container'>
   <checkbox-group bindchange="checkboxChange">
     <view wx:for='{{choices}}' wx:key='unique'>
-      <view class='activity'>
-        <view class='subtitle'>
-          <text>{{item.value}}</text>
+      <label>
+        <view class='activity'>
+          <view class='subtitle'>
+            <text>{{item.value}}</text>
+          </view>
+          <view class='content indent'>
+            <text>{{item.description}}</text>
+          </view>
+          <view class='{{checkboxTextStyles[index]}}'>
+            <checkbox value='{{index}}' checked='{{isChecked}}'>我参加了</checkbox>
+          </view>
         </view>
-        <view class='content indent'>
-          <text>{{item.description}}</text>
-        </view>
-        <view class='content'>
-          <checkbox value='{{item.name}}' checked='{{isChecked}}'>我参加了</checkbox>
-        </view>
-      </view>
+      </label>
     </view>
   </checkbox-group>
 </view>
