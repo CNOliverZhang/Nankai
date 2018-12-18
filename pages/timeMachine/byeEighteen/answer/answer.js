@@ -147,16 +147,16 @@ Page({
       [dataTarget]: score
     })
     
-    //页码增加并清空复选框
+    //页码增加
     that.setData({
       page: that.data.page + 1,
-      isChecked:''
     })
 
     //判断点击按钮之后的操作
     if (that.data.page < that.data.categoryCount) {
       //初始化标题和选项
       that.setData({
+        isChecked: '',
         categoryTitle: that.data.activities[that.data.page].category,
         choices: that.data.activities[that.data.page].select.slice(),
         categoryScore: 0
