@@ -12,7 +12,7 @@
   <checkbox-group bindchange="checkboxChange">
     <view wx:for='{{choices}}' wx:key='unique'>
       <label>
-        <view class='activity'>
+        <view class='{{checkboxHolderStyles[index]}}'>
           <view class='subtitle'>
             <text>{{item.value}}</text>
           </view>

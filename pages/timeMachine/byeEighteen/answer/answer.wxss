@@ -61,7 +61,11 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
   padding-right: 40rpx;
   overflow: hidden;
   border-radius: 40rpx;
-  background-color: rgba(255, 255, 255, 0.9)
+  background-color: rgba(255, 255, 255, 0.8)
+}
+
+.checked {
+  background-color: #ffffff
 }
 
 .radar-canvas {

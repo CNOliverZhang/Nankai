@@ -77,14 +77,18 @@ Page({
       //初始化按钮文字
       buttonText: '下一页'
     })
-    //初始化复选框文本样式
+    //初始化复选框样式
     var checkboxTextStyles = []
+    var checkboxHolderStyles = []
     for (var i = 0; i < that.data.choices.length; i++) {
-      var tempStyle = 'content'
-      checkboxTextStyles.push(tempStyle)
+      var tempTextStyle = 'content'
+      var tempHolderStyle = 'activity'
+      checkboxTextStyles.push(tempTextStyle)
+      checkboxHolderStyles.push(tempHolderStyle)
     }
     that.setData({
-      checkboxTextStyles: checkboxTextStyles
+      checkboxTextStyles: checkboxTextStyles,
+      checkboxHolderStyles: checkboxHolderStyles
     })
     //获取头像尺寸以用于截图（确保截图截在中间）
     wx.getImageInfo({
@@ -108,19 +112,23 @@ Page({
     })
   },  
 
-  //改变多选框的值使得改组得分改变，文本样式改变
+  //改变多选框的值使得改组得分改变，复选框样式改变
   checkboxChange: function(e) {
     var that = this
     for (var i = 0; i < that.data.choices.length; i++) {
-      var target = 'checkboxTextStyles[' + i + ']'
+      var targetText = 'checkboxTextStyles[' + i + ']'
+      var targetHolder = 'checkboxHolderStyles[' + i + ']'
       that.setData({
-        [target]: 'content'
+        [targetText]: 'content',
+        [targetHolder]: 'activity'
       })
     }
     for (var i = 0; i < e.detail.value.length; i++) {
-      var target = 'checkboxTextStyles[' + e.detail.value[i] + ']'
+      var targetText = 'checkboxTextStyles[' + e.detail.value[i] + ']'
+      var targetHolder = 'checkboxHolderStyles[' + e.detail.value[i] + ']'
       that.setData({
-        [target]: 'content attend'
+        [targetText]: 'content attend',
+        [targetHolder]: 'activity checked'
       })
     }
     that.setData({
@@ -153,14 +161,18 @@ Page({
         choices: that.data.activities[that.data.page].select.slice(),
         categoryScore: 0
       })
-      //初始化复选框文本样式
+      //初始化复选框样式
       var checkboxTextStyles = []
+      var checkboxHolderStyles = []
       for (var i = 0; i < that.data.choices.length; i++) {
-        var tempStyle = 'content'
-        checkboxTextStyles.push(tempStyle)
+        var tempTextStyle = 'content'
+        var tempHolderStyle = 'activity'
+        checkboxTextStyles.push(tempTextStyle)
+        checkboxHolderStyles.push(tempHolderStyle)
       }
       that.setData({
-        checkboxTextStyles: checkboxTextStyles
+        checkboxTextStyles: checkboxTextStyles,
+        checkboxHolderStyles: checkboxHolderStyles
       })
       //定位到页首
       wx.pageScrollTo({
