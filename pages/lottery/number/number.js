@@ -35,12 +35,18 @@ Page({
       })
     } else {
       var now = new Date();
-      var year = now.getFullYear();
-      var month = now.getMonth() + 1;
-      var day = now.getDate();
-      var hour = now.getHours();
-      var minute = now.getMinutes();
-      var second = now.getSeconds();
+      var year = String(now.getFullYear());
+      var month = String(now.getMonth() + 1);
+      var day = String(now.getDate());
+      var hour = String(now.getHours());
+      var minute = String(now.getMinutes());
+      if (minute.length < 2) {
+        minute = '0' + minute
+      }
+      var second = String(now.getSeconds());
+      if (second.length < 2) {
+        second = '0' + second
+      }
       var time = year + '年' + month + '月' + day + '日' + hour + ':' + minute + ':' + second;
       this.setData({
         number: this.data.array[this.data.index],
