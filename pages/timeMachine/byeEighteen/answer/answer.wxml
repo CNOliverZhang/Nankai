@@ -4,8 +4,8 @@
   </view>
 </view>
 <view class='container'>
-  <view class='instruction'>
-    <text>请勾选今年你参加过的{{categoryTitle}}~</text>
+  <view class='instruction indent'>
+    <text>{{instruction}}</text>
   </view>
 </view>
 <view class='container'>

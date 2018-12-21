@@ -5,7 +5,7 @@
 </view>
 <view class='container'>
   <view class='content indent'>
-    <text>经鉴定，{{nickname}}在2018年是一名{{remark}}！</text>
+    <text>经鉴定，{{nickname}}在2018年{{category}}，是一名{{remark}}！</text>
   </view>
 </view>
 <view class='container'>

@@ -17,6 +17,7 @@ Page({
     })
     that.setData({
       imagePath: options.imagePath,
+      category: options.category,
       remark: options.remark,
       nickname: options.nickname
     })

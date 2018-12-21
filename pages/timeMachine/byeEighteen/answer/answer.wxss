@@ -47,6 +47,7 @@ checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
 }
 
 .instruction {
+  text-align: justify;
   color: #ffffff
 }
 
