@@ -14,6 +14,34 @@
 </view>
 <view class='container'>
   <view class='subtitle'>
+    <text>回首2018：测试你的南开气质</text>
+  </view>
+  <view class='content indent'>
+    <text>这是2018年12月21日推出的小程序。你可以回顾你的2018，看看自己参与了哪些活动，给自己做一个多维度的评价。</text>
+  </view>
+</view>
+<view class='container'>
+  <view class='subtitle'>
+    <text>改革开放知多少</text>
+  </view>
+  <view class='content indent'>
+    <text>这是2018年12月3日为纪念改革开放40周年推出的小程序。你可以在这里来一场“考试”，看看自己对改革开放有多少了解。</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoReformForty'>
+    <image class='button-image' src='http://image.potatofield.cn/18-11-14/8563060.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoByeEighteen'>
+    <image class='button-image' src='http://image.potatofield.cn/18-12-17/54929529.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <view class='subtitle'>
     <text>我与南开弹恋爱</text>
   </view>
   <view class='content indent'>
@@ -31,7 +59,7 @@
     <text>九九南开，等一个你</text>
   </view>
   <view class='content indent'>
-    <text>这是2018年10月16日推出的，为纪念南开大学九十九周年校庆推出的小程序。你可以在这里生成你的99校庆专属纪念海报。</text>
+    <text>这是2018年10月16日为纪念南开大学九十九周年校庆推出的小程序。你可以在这里生成你的99校庆专属纪念海报。</text>
   </view>
 </view>
 <view class='container'>
