@@ -21,6 +21,12 @@
   </view>
 </view>
 <view class='container'>
+  <button class='block-button' bindtap='gotoByeEighteen'>
+    <image class='button-image' src='http://image.potatofield.cn/18-12-17/54929529.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
   <view class='subtitle'>
     <text>改革开放知多少</text>
   </view>
@@ -31,12 +37,6 @@
 <view class='container'>
   <button class='block-button' bindtap='gotoReformForty'>
     <image class='button-image' src='http://image.potatofield.cn/18-11-14/8563060.jpg'></image>
-    <view class='button-mask' hover-class='button-mask__hover'></view>
-  </button>
-</view>
-<view class='container'>
-  <button class='block-button' bindtap='gotoByeEighteen'>
-    <image class='button-image' src='http://image.potatofield.cn/18-12-17/54929529.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>

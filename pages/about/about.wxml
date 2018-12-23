@@ -21,10 +21,13 @@
     <text>当前版本</text>
   </view>
   <view class='content center'>
-    <text>2018年12月22日 v1.4.181222 Beta版</text>
+    <text>2018年12月23日 v1.4.181223 Beta版</text>
   </view>
   <view class='subtitle'>
     <text>版本历史</text>
+  </view>
+    <view class='content center'>
+    <text>2018年12月22日 v1.4.181222 Beta版</text>
   </view>
   <view class='content center'>
     <text>2018年12月21日 v1.4.181221 正式版</text>
