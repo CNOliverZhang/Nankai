@@ -21,12 +21,15 @@
     <text>当前版本</text>
   </view>
   <view class='content center'>
-    <text>2018年12月23日 v1.4.181223 Beta版</text>
+    <text>2018年12月31日 v1.5.181231 正式版</text>
   </view>
   <view class='subtitle'>
     <text>版本历史</text>
   </view>
-    <view class='content center'>
+  <view class='content center'>
+    <text>2018年12月23日 v1.4.181223 Beta版</text>
+  </view>
+  <view class='content center'>
     <text>2018年12月22日 v1.4.181222 Beta版</text>
   </view>
   <view class='content center'>
@@ -96,7 +99,7 @@
     <text>美工设计</text>
   </view>
   <view class='content center'>
-    <text>王烁皓 王梓炫 张志毅 郭冠琛 </text>
+    <text>王烁皓 王梓炫 张志毅 郭冠琛 郭巍</text>
   </view>
 </view>
 <view class='container'>

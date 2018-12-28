@@ -49,7 +49,7 @@ Page({
   //返回主页
   return: function() {
     wx.redirectTo({
-      url: '/pages/index/index'
+      url: '/pages/timeMachine/timeMachine'
     })
   },
 
