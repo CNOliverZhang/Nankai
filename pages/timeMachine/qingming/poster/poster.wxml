@@ -1,0 +1,26 @@
+<view class='container'>
+  <textarea placeholder='请在这里写下你送给先贤或先烈的挽词' maxlength='82' bindinput='write' show-confirm-bar='false' class='words'></textarea>
+</view>
+<view class='container'>
+  <button bindtap='finish' class='bar-button' hover-class='bar-button__hover'>敬献挽词</button>
+</view>
+<view class='container row-flex'>
+    <view class='half'>
+      <button class='bar-button' hover-class='bar-button__hover' bindtap='goBack'>退出</button>
+    </view>
+    <view class='half'>
+      <button class='bar-button' hover-class='bar-button__hover' open-type='share'>分享</button>
+    </view>
+  </view>
+<cover-view class='image-holder' hidden='{{showPoster == false}}'>
+  <cover-image src='{{imagePath}}' class='poster'></cover-image>
+  <cover-view class='container row-flex'>
+    <cover-view class='half'>
+      <button class='bar-button' hover-class='bar-button__hover' bindtap='save'>保存图片到手机</button>
+    </cover-view>
+    <cover-view class='half'>
+      <button class='bar-button' hover-class='bar-button__hover' bindtap='cancel'>取消保存</button>
+    </cover-view>
+  </cover-view>
+</cover-view>
+<canvas class='canvas' canvas-id='poster'></canvas>

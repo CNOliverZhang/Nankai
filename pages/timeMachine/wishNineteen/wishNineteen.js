@@ -33,9 +33,9 @@ Page({
   },
 
   //返回
-  prev: function() {
+  prev: function () {
     wx.redirectTo({
-      url: '/pages/index/index',
+      url: '/pages/timeMachine/timeMachine',
     })
   },
   

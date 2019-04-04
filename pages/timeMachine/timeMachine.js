@@ -1,6 +1,13 @@
 // pages/timeMachine/timeMachine.js
 Page({
 
+  //许愿2019
+  gotoFlagNineteen: function () {
+    wx.navigateTo({
+      url: '/pages/timeMachine/wishNineteen/wishNineteen',
+    })
+  },
+
   //回首2018
   gotoByeEighteen: function () {
     wx.navigateTo({

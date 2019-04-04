@@ -18,27 +18,6 @@ Page({
       }
     })
   },
-  
-  //改革开放
-  gotoReformForty: function () {
-    wx.navigateTo({
-      url: '/pages/timeMachine/reformForty/reformForty',
-    })
-  },
-
-  //回首2018
-  gotoByeEighteen: function () {
-    wx.navigateTo({
-      url: '/pages/timeMachine/byeEighteen/byeEighteen',
-    })
-  },
-
-  //许愿2019
-  gotoFlagNineteen: function () {
-    wx.navigateTo({
-      url: '/pages/timeMachine/wishNineteen/wishNineteen',
-    })
-  },
 
   //抽奖抽签小助手
   gotoLottery: function () {
@@ -51,6 +30,13 @@ Page({
   gotoAvatarCreator: function() {
     wx.navigateTo({
       url: '/pages/avatarCreator/avatarCreator',
+    })
+  },
+
+  //清明节
+  gotoQingming: function () {
+    wx.navigateTo({
+      url: '/pages/timeMachine/qingming/qingming',
     })
   },
 

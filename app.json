@@ -30,7 +30,10 @@
     "pages/timeMachine/byeEighteen/byeEighteen",
     "pages/timeMachine/byeEighteen/avatar/avatar",
     "pages/timeMachine/byeEighteen/answer/answer",
-    "pages/timeMachine/byeEighteen/report/report"
+    "pages/timeMachine/byeEighteen/report/report",
+    "pages/timeMachine/qingming/qingming",
+    "pages/timeMachine/qingming/celebrities/celebrities",
+    "pages/timeMachine/qingming/poster/poster"
   ],
   "window": {
     "backgroundTextStyle": "light",

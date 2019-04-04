@@ -1,0 +1,24 @@
+page {
+  background: #333333;
+}
+
+.title {
+  color: #ffffff
+}
+
+.subtitle {
+  color: #333333;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.celebraty {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  overflow: hidden;
+  border-radius: 40rpx;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition-duration: 0.5s
+}

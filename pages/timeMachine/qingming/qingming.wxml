@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class='texts'>
+  <view class='{{item.style}}' wx:for="{{words}}" wx:key="text">{{item.text}}</view>
+</view>
+<button bindtap='next' class='{{startButtonStyle}}' hover-class='show bar-button__hover'>追忆先贤</button>

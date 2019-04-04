@@ -1,0 +1,9 @@
+<view class='container'> 
+  <view class='title'>请选择一位先贤或先烈祭奠</view>
+</view>
+<view class='container'>
+  <button wx:for="{{celebrities}}" id='{{item.name}}' wx:key='*this' bindtap='choose' class='celebraty'>
+    <view class='subtitle'>{{item.name}}</view>
+    <view class='content indent'>{{item.description}}</view>
+  </button>
+</view>

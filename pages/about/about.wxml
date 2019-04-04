@@ -6,7 +6,7 @@
     <text>版权</text>
   </view>
   <view class='content center'>
-    <text>Copyright © 2018</text>
+    <text>Copyright © 2019</text>
   </view>
   <view class='content center'>
     <text>南开大学团委网络新媒体运营中心</text>
@@ -21,10 +21,13 @@
     <text>当前版本</text>
   </view>
   <view class='content center'>
-    <text>2018年12月31日 v1.5.181231 正式版</text>
+    <text>2019年4月4日 v1.6.190404 正式版</text>
   </view>
   <view class='subtitle'>
     <text>版本历史</text>
+  </view>
+  <view class='content center'>
+    <text>2018年12月31日 v1.5.181231 正式版</text>
   </view>
   <view class='content center'>
     <text>2018年12月23日 v1.4.181223 Beta版</text>
@@ -87,7 +90,7 @@
     <text>功能逻辑代码</text>
   </view>
   <view class='content center'>
-    <text>张志毅 陈鸿泽 樊漆亮</text>
+    <text>张志毅 陈鸿泽 樊漆亮 郭冠琛</text>
   </view>
   <view class='subtitle'>
     <text>前端样式代码</text>

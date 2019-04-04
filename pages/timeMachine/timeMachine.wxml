@@ -14,6 +14,20 @@
 </view>
 <view class='container'>
   <view class='subtitle'>
+    <text>许愿2019</text>
+  </view>
+  <view class='content indent'>
+    <text>这是2018年12月31日推出的小程序。你可以为自己的新年立下小目标，年末再来看看自己完成得怎样。</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoFlagNineteen'>
+    <image class='button-image' src='http://image.potatofield.cn/18-11-14/10587524.jpg'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <view class='subtitle'>
     <text>回首2018：测试你的南开气质</text>
   </view>
   <view class='content indent'>
