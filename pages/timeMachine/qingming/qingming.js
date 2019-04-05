@@ -100,7 +100,8 @@ Page({
         text: '　',
       },
     ],
-    startButtonStyle:'bar-button hidden'
+    startButtonStyle:'bar-button hidden',
+    showLoad: true,
   },
 
   //显示文字
@@ -115,16 +116,46 @@ Page({
         })
       }
     })
+    wx.showModal({
+      title: '是否开启声音',
+      content: '您是否希望开启背景音乐？',
+      success: function(res) {
+        if (res.confirm) {
+          wx.downloadFile({
+            url: 'https://music.163.com/song/media/outer/url?id=1943186.mp3',
+            success: function (res) {
+              let music = wx.createInnerAudioContext()
+              music.src = res.tempFilePath
+              music.play()
+              that.setData({
+                showLoad: false
+              })
+              that.showText()
+            }
+          })
+        } else {
+          that.setData({
+            showLoad: false
+          })
+          that.showText()
+        }
+      }
+    })
+    
+  },
+
+  showText: function() {
+    let that = this
     let delay = 1000
     for (let i = 0; i < that.data.words.length; i++) {
       let target = 'words[' + String(i) + '].style'
       setTimeout(function () {
-         that.setData({
-           [target]: 'content show'
-         })
-       }, delay)
-       delay += 1000
-     }
+        that.setData({
+          [target]: 'content show'
+        })
+      }, delay)
+      delay += 1000
+    }
     setTimeout(function () {
       that.setData({
         startButtonStyle: 'bar-button show'
