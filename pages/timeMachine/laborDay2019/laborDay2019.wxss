@@ -1,0 +1,130 @@
+/**index.wxss**/
+
+page {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: none;
+}
+
+.index-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+index-title{
+
+}
+.index-title-1{
+  margin-top:100rpx;
+  margin-left:110rpx;
+  width:275rpx;
+  height:153rpx;
+  opacity: 0;
+  
+}
+.index-title-pic-container{
+  display: flex;
+  flex-direction: row;
+  align-content:space-between;
+  align-items: center;
+  justify-content: center;
+}
+.index-title-pic1{
+  width:240rpx;
+  height:180rpx;
+  margin-top:-0rpx;
+  margin-right:100rpx;
+  z-index:10;
+  opacity: 0;
+}
+.index-title-pic2{
+  width:240rpx;
+  height:160rpx;
+  margin-left:130rpx;
+  margin-top:-180rpx;
+  z-index:15;
+  opacity: 0;
+}
+.index-title-pic3{
+  width:240rpx;
+  height:180rpx;
+  margin-top:30rpx;
+  margin-left:-140rpx;
+  margin-right:-10rpx;
+  opacity: 0;
+  z-index:13;
+}
+.index-title-2{
+  margin-top:-90rpx;
+  margin-left:400rpx;
+  width:275rpx;
+  height:153rpx;
+  opacity: 0;
+}
+.index-blah-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 100rpx;
+}
+.index-blah-text{
+  font-size:16px;
+  color: white;
+  margin:3px;
+  opacity: 0;
+}
+.index-button{
+  background-color: rgba(0,0,0,0);
+  padding-bottom: 300rpx;
+  opacity: 0;
+}
+.index-button::after{
+    border:none;
+}
+.index-button-image{
+  width: 300rpx;
+  height:130rpx;
+}
+.drawlots{
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:-100;
+
+}
+.drawlots-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+}
+.drawlots-image{
+  width:600rpx;
+  height:800rpx;
+  margin:30rpx;
+  margin-top:60px;
+  box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.3);
+  border-radius: 20rpx;
+}
+.drawlots-button{ 
+  background-color: rgba(0,0,0,0); 
+  opacity: 1; 
+} 
+.drawlots-button::after{ 
+    border:none; 
+} 
+.drawlots-button-image{ 
+  height: 149rpx; 
+  width: 265rpx; 
+  margin:10rpx;
+} 
+.drawlots-button-container{ 
+  display:flex; 
+  align-items: center; 
+  flex-direction: row; 
+  justify-content: space-between; 
+}

@@ -33,10 +33,10 @@ Page({
     })
   },
 
-  //清明节
-  gotoQingming: function () {
+  //劳动节
+  gotoLaborDay2019: function () {
     wx.navigateTo({
-      url: '/pages/timeMachine/qingming/qingming',
+      url: '/pages/timeMachine/laborDay2019/laborDay2019',
     })
   },
 

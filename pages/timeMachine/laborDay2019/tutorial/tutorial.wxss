@@ -1,0 +1,71 @@
+/* pages/tutorial/tutorial.wxss */
+@import "../src/style/iconfont.wxss";
+page {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-image: none;
+}
+.tutorial-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #b3d4db;
+}
+.tutorial-image{
+  width:600rpx;
+  height:800rpx;
+  margin-top:30px;
+  box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.3);
+  border-radius: 20rpx;
+}
+.tutorial-text-container{
+  width: 550rpx;
+  border-radius: 12px;
+  background-color:rgba(255,255,255,0.8);
+  padding: 16px;
+  margin-top: 20rpx;
+  font-size: 16px;
+  box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.1);
+}
+.tutorial-text-title{
+  font-size: 20px;
+  font-family: "BigYoungMediumGB2.0";
+  margin-bottom: 3px;
+}
+.tutorial-text-content{
+  margin-left: 26px;
+  margin-top:10px;
+}
+.tutorial-route-title{
+  font-size:19px;
+  font-family: 'BigYoungMediumGB2.0';
+  margin:5px;
+}
+.tutorial-route-container{
+  margin: 6px;
+  padding-left: 10px;
+  padding-top:6px;
+  padding-bottom:6px;
+  border-left: 3px solid rgba(0,0,0,0.8);
+}
+.tutorial-route-vehicle{
+  font-size:15px;
+  margin: 8px;
+  margin-left: 16px;
+  color: rgba(0,0,0,0.5);
+}
+.tutorial-route-station{
+  font-size:18px;
+  margin:6px;
+  font-family: 'BigYoungMediumGB2.0';
+}
+.tutorial-transportation-title{
+  font-size:18px;
+  font-family: 'BigYoungMediumGB2.0';
+}
+.tutorial-transportation-content{
+  color: rgba(0,0,0,0.8);
+  margin:7px;
+  margin-left: 16px;
+}

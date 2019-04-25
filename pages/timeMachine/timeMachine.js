@@ -1,6 +1,13 @@
 // pages/timeMachine/timeMachine.js
 Page({
 
+  //清明节
+  gotoQingming: function () {
+    wx.navigateTo({
+      url: '/pages/timeMachine/qingming/qingming',
+    })
+  },
+
   //许愿2019
   gotoFlagNineteen: function () {
     wx.navigateTo({

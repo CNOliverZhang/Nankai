@@ -1,0 +1,38 @@
+<!-- 五一出行指南 -->
+<!-- 给不知道去哪的人一个提示 -->
+<!-- 抽签程序-->
+<view style='background-color: #b3d4db;height:{{screeninfo.height}}px;'>
+  <view class='index-container' style='height:{{screeninfo.height}}px;' animation='{{index_fade_animation}}'>
+    <!--title-->
+    <view class='index-title'>
+      <image class='index-title-1' src='src/images/title-1.png' animation='{{title_animation_1}}'></image>
+      <view class='index-title-pic-container'>
+        <image class='index-title-pic1' src='src/images/cloud1.png' animation='{{title_animation_cloud1}}'></image>
+        <image class='index-title-pic3' src='src/images/paperplane.png' animation='{{title_animation_paperplane}}'></image>
+        <image class='index-title-pic2' src='src/images/cloud3.png' animation='{{title_animation_cloud2}}'></image>
+      </view>
+      <image class='index-title-2' src='src/images/title-2.png' animation='{{title_animation_2}}'></image>
+    </view>
+    <view class='index-blah-container'>
+      <text class='index-blah-text' animation='{{blah_animation_1}}'>五一还不知道去哪...</text>
+      <text class='index-blah-text' animation='{{blah_animation_2}}'>emmmm...</text>
+      <text class='index-blah-text' animation='{{blah_animation_3}}'>来抽个签吧(*╯3╰)</text>
+    </view>
+    <button class='index-button' animation='{{button_animation}}' bindtap='drawLots'>
+      <image class='index-button-image' src="src/images/button.png"></image>
+    </button>
+  </view>
+<!------------------------------------------------------------------------------------------------------------------->
+  <view style='height:{{screeninfo.height}}px;z-index:{{z_index}}' class='drawlots'>
+    <view class='drawlots-container' animation='{{drawlots_pushin_animation}}'>
+      <view>
+        <image src='{{image_path}}' class='drawlots-image'></image>
+      </view>
+      <!--button-->
+      <view class='drawlots-button-container'>
+        <button bindtap='drawlotsAgain' class='drawlots-button'><image class='drawlots-button-image' src='src/images/button-drawlots-2.png'></image></button>
+        <button bindtap='tutorialPage' class='drawlots-button'><image class='drawlots-button-image' src='src/images/button-drawlots-1.png'></image></button>
+      </view>
+    </view>
+  </view>
+</view>

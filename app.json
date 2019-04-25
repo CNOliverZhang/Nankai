@@ -33,7 +33,9 @@
     "pages/timeMachine/byeEighteen/report/report",
     "pages/timeMachine/qingming/qingming",
     "pages/timeMachine/qingming/celebrities/celebrities",
-    "pages/timeMachine/qingming/poster/poster"
+    "pages/timeMachine/qingming/poster/poster",
+    "pages/timeMachine/laborDay2019/laborDay2019",
+    "pages/timeMachine/laborDay2019/tutorial/tutorial"
   ],
   "window": {
     "backgroundTextStyle": "light",
