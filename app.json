@@ -42,5 +42,6 @@
     "navigationBarBackgroundColor": "#7a0c6e",
     "navigationBarTitleText": "南开大学团委服务平台",
     "navigationBarTextStyle": "white"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
