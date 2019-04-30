@@ -1,0 +1,33 @@
+page {
+  padding: 0;
+}
+.result{
+  border:3px solid #97221e;
+  box-shadow:3px 3px 0px #e7d69d;
+}
+.resultpage{
+  padding-top:36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.button-box{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+button{
+  background-color: #b62e2e;
+  width: 280px;
+  height: 50px;
+  color:#e7d69d;
+  font-family: "BigYoungMediumGB2.0";
+  margin: 20px;
+  padding:3px;
+  box-shadow:3px 3px 0px #e7d69d;
+}
+button::after{
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 0px;
+}

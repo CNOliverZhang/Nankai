@@ -1,0 +1,5 @@
+<view class='index-container' style="height:{{window_info.height}}px;">
+  <image class='index-image' src='http://image.potatofield.cn/youthDay/title-pic.png'></image>
+  <image class='index-subtitle' src='http://image.potatofield.cn/youthDay/subtitle.png'></image>
+  <button class='index-button' open-type='getUserInfo' bindgetuserinfo='getUserInfo' bindtap='testStart'> <image class='index-button-image' src='http://image.potatofield.cn/youthDay/start-button.png'></image> </button>
+</view>

@@ -1,6 +1,13 @@
 // pages/timeMachine/timeMachine.js
 Page({
 
+  //劳动节
+  gotoLaborDay2019: function () {
+    wx.navigateTo({
+      url: '/pages/timeMachine/laborDay2019/laborDay2019',
+    })
+  },
+
   //清明节
   gotoQingming: function () {
     wx.navigateTo({

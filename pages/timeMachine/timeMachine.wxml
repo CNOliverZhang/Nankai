@@ -14,15 +14,29 @@
 </view>
 <view class='container'>
   <view class='subtitle'>
+    <text>五一去哪儿</text>
+  </view>
+  <view class='content indent'>
+    <text>这是2019年4月30日推出的小程序。如果你对于这个假期去哪儿玩儿还没有主意，可以来这里为自己找些灵感。</text>
+  </view>
+</view>
+<view class='container'>
+  <button class='block-button' bindtap='gotoLaborDay2019'>
+    <image class='button-image' src='http://image.potatofield.cn/%E9%A6%96%E9%A1%B5%E5%9B%BE.png'></image>
+    <view class='button-mask' hover-class='button-mask__hover'></view>
+  </button>
+</view>
+<view class='container'>
+  <view class='subtitle'>
     <text>不忘先贤，砥砺前行</text>
   </view>
   <view class='content indent'>
-    <text>这是2019年4月4日推出的小程序。在这里你将了解到南开先贤及先烈的事迹，还能够</text>
+    <text>这是2019年4月4日推出的小程序。在这里你将了解到南开先贤及先烈的事迹，还能够为他们献上跨越时代的敬意。</text>
   </view>
 </view>
 <view class='container'>
   <button class='block-button' bindtap='gotoQingming'>
-    <image class='button-image' src='https://image.potatofield.cn/%E9%A6%96%E9%A1%B5%E5%9B%BE.jpg'></image>
+    <image class='button-image' src='http://image.potatofield.cn/%E9%A6%96%E9%A1%B5%E5%9B%BE.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>

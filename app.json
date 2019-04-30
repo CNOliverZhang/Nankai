@@ -35,7 +35,10 @@
     "pages/timeMachine/qingming/celebrities/celebrities",
     "pages/timeMachine/qingming/poster/poster",
     "pages/timeMachine/laborDay2019/laborDay2019",
-    "pages/timeMachine/laborDay2019/tutorial/tutorial"
+    "pages/timeMachine/laborDay2019/tutorial/tutorial",
+    "pages/timeMachine/youthDay/youthDay",
+    "pages/timeMachine/youthDay/result/result",
+    "pages/timeMachine/youthDay/testpage/testpage"
   ],
   "window": {
     "backgroundTextStyle": "light",

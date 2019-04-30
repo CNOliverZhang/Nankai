@@ -21,10 +21,13 @@
     <text>当前版本</text>
   </view>
   <view class='content center'>
-    <text>2019年4月30日 v1.7.190430 正式版</text>
+    <text>2019年5月4日 v1.8.190504 正式版</text>
   </view>
   <view class='subtitle'>
     <text>版本历史</text>
+  </view>
+  <view class='content center'>
+    <text>2019年4月30日 v1.7.190430 正式版</text>
   </view>
     <view class='content center'>
     <text>2019年4月23日 v1.6.190423 Beta版</text>
@@ -96,19 +99,19 @@
     <text>功能逻辑代码</text>
   </view>
   <view class='content center'>
-    <text>张志毅 陈鸿泽 樊漆亮 郭冠琛 郝润来</text>
+    <text>张志毅 陈鸿泽 樊漆亮 郭冠琛 郝润来 郭伟</text>
   </view>
   <view class='subtitle'>
     <text>前端样式代码</text>
   </view>
   <view class='content center'>
-    <text>张志毅 郝润来</text>
+    <text>张志毅 郝润来 郭伟</text>
   </view>
   <view class='subtitle'>
     <text>美工设计</text>
   </view>
   <view class='content center'>
-    <text>王烁皓 王梓炫 张志毅 郭冠琛 郭巍 郝润来</text>
+    <text>王烁皓 王梓炫 张志毅 郭冠琛 郭巍 郝润来 郭伟</text>
   </view>
 </view>
 <view class='container'>

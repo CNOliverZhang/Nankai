@@ -1,0 +1,36 @@
+/**index.wxss**/
+page {
+  background-image: url(http://image.potatofield.cn/youthDay/background.png);
+  background-position: bottom;
+  background-size: cover;
+  padding: 0;
+}
+.index-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.index-image{
+  margin-top: 200rpx;
+  height: 495rpx;
+  width: 468rpx;
+}
+.index-subtitle{
+  width: 407rpx;
+  height: 44rpx;
+  margin: 60rpx;
+}
+.index-button{
+  background: rgba(0,0,0,0);
+  width: 366rpx;
+  height:118rpx;
+}
+.index-button::after{
+  border: none;
+}
+.index-button-image{
+  width:293rpx;
+  height: 94.4rpx;
+  box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.5);
+}

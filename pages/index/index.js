@@ -33,10 +33,10 @@ Page({
     })
   },
 
-  //劳动节
-  gotoLaborDay2019: function () {
+  //青年节
+  gotoYouthDay: function () {
     wx.navigateTo({
-      url: '/pages/timeMachine/laborDay2019/laborDay2019',
+      url: '/pages/timeMachine/youthDay/youthDay',
     })
   },
 

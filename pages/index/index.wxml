@@ -11,8 +11,8 @@
   </view>
 </view>
 <view class='container'>
-  <button class='block-button' bindtap='gotoLaborDay2019'>
-    <image class='button-image' src='https://image.potatofield.cn/%E9%A6%96%E9%A1%B5%E5%9B%BE.png'></image>
+  <button class='block-button' bindtap='gotoYouthDay'>
+    <image class='button-image' src='http://image.potatofield.cn/youthDay/index.jpg'></image>
     <view class='button-mask' hover-class='button-mask__hover'></view>
   </button>
 </view>

@@ -1,0 +1,6 @@
+<!--pages/result/result.wxml-->
+<view class='resultpage'style="min-height:{{window_info.height}}px;background-color:#113054">
+  <canvas class="result" style='width:{{window_info.width<=600?window_info.width*0.75:600*0.75}}px;height:{{window_info.width<=600?window_info.width*1.4:600*1.4}}px' canvas-id='resultimage'></canvas>
+  <view><button class='button-box' bindtap='saveImg'>保存图片</button></view>
+</view>
+ 

@@ -1,0 +1,26 @@
+<!--pages/testpage/testpage.wxml-->
+<view class='testpage testpage-container'style="height:{{window_info.height}}px">
+  <view class='testpage-head'>
+    <image class='testpage-left-head' src='http://image.potatofield.cn/youthDay/head.png'></image>
+    <image class='testpage-right-head' src='http://image.potatofield.cn/youthDay/head.png'></image>
+  </view>
+  <!--问题 -->
+  <view class='testpage-question'>
+    <text class='testpage-textcolor1'>{{pagenum+1}}.{{title[index].ordinary_word1}}<text class='testpage-textcolor2'>{{title[index].keyword}}</text>{{title[index].ordinary_word2}}</text>
+  </view>
+  <!--选项-->
+  <view>
+    <button class='testpage-button' bindtap='test_a'>
+    {{chioce[index].A}}
+    </button>
+    <button class='testpage-button' bindtap='test_b'>
+    {{chioce[index].B}}
+    </button>
+    <button class='testpage-button' bindtap='test_c'>
+    {{chioce[index].C}}
+    </button>
+    <button class='testpage-button' bindtap='test_d'>
+    {{chioce[index].D}}
+    </button>
+  </view>
+</view>
