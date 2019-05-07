@@ -115,7 +115,7 @@ Page({
   onShareAppMessage: function (res) {
     return {
       title: "测测你是哪系青年",
-      imageUrl: this.data.imageUrl,
+      imageUrl: this.data.shareImg,
       path: 'pages/timeMachine/youthDay/youthDay',
       success: function (res) {
         wx.showToast({

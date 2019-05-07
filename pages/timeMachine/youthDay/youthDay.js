@@ -61,7 +61,7 @@ Page({
   onShareAppMessage: function (res) {
     return {
       title: "测测你是哪系青年",
-      imageUrl: this.data.imageUrl,
+      imageUrl: this.data.shareImg,
       success: function (res) {
         wx.showToast({
           title: "分享成功",
